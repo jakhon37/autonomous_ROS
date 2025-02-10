@@ -1,0 +1,17 @@
+[8.071s] Invoking command in '/home/ubuntu/my_space/autonomous_ROS/build/dual_motor': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/dual_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/dual_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/my_space/autonomous_ROS/build/dual_motor/build --no-deps symlink_data
+[10.133s] running develop
+[11.341s] running egg_info
+[11.345s] writing dual_motor.egg-info/PKG-INFO
+[11.347s] writing dependency_links to dual_motor.egg-info/dependency_links.txt
+[11.348s] writing entry points to dual_motor.egg-info/entry_points.txt
+[11.349s] writing requirements to dual_motor.egg-info/requires.txt
+[11.349s] writing top-level names to dual_motor.egg-info/top_level.txt
+[11.356s] reading manifest file 'dual_motor.egg-info/SOURCES.txt'
+[11.360s] writing manifest file 'dual_motor.egg-info/SOURCES.txt'
+[11.371s] running build_ext
+[11.372s] Creating /home/ubuntu/my_space/autonomous_ROS/install/dual_motor/lib/python3.10/site-packages/dual-motor.egg-link (link to .)
+[11.377s] Installing dual_motor_controller script to /home/ubuntu/my_space/autonomous_ROS/install/dual_motor/lib/dual_motor
+[11.379s] 
+[11.379s] Installed /home/ubuntu/my_space/autonomous_ROS/build/dual_motor
+[11.381s] running symlink_data
+[11.611s] Invoked command in '/home/ubuntu/my_space/autonomous_ROS/build/dual_motor' returned '0': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/dual_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/dual_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/my_space/autonomous_ROS/build/dual_motor/build --no-deps symlink_data

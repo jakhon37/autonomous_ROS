@@ -1,0 +1,19 @@
+[10.004s] Invoking command in '/home/ubuntu/my_space/autonomous_ROS/build/motor_encoder': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/motor_encoder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/my_space/autonomous_ROS/build/motor_encoder/build --no-deps symlink_data --force
+[12.326s] running develop
+[14.125s] running egg_info
+[14.126s] writing motor_encoder.egg-info/PKG-INFO
+[14.129s] writing dependency_links to motor_encoder.egg-info/dependency_links.txt
+[14.131s] writing entry points to motor_encoder.egg-info/entry_points.txt
+[14.138s] writing requirements to motor_encoder.egg-info/requires.txt
+[14.139s] writing top-level names to motor_encoder.egg-info/top_level.txt
+[14.143s] reading manifest file 'motor_encoder.egg-info/SOURCES.txt'
+[14.150s] writing manifest file 'motor_encoder.egg-info/SOURCES.txt'
+[14.159s] running build_ext
+[14.161s] Creating /home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/lib/python3.10/site-packages/motor-encoder.egg-link (link to .)
+[14.168s] Installing dual_encoder_node script to /home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/lib/motor_encoder
+[14.186s] 
+[14.188s] Installed /home/ubuntu/my_space/autonomous_ROS/build/motor_encoder
+[14.190s] running symlink_data
+[14.199s] symbolically linking /home/ubuntu/my_space/autonomous_ROS/build/motor_encoder/resource/motor_encoder -> /home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/share/ament_index/resource_index/packages
+[14.200s] symbolically linking /home/ubuntu/my_space/autonomous_ROS/build/motor_encoder/package.xml -> /home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/share/motor_encoder
+[15.788s] Invoked command in '/home/ubuntu/my_space/autonomous_ROS/build/motor_encoder' returned '0': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/motor_encoder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/my_space/autonomous_ROS/build/motor_encoder/build --no-deps symlink_data --force

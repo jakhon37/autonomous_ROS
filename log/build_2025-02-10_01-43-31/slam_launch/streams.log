@@ -1,0 +1,25 @@
+[3.035s] Invoking command in '/home/ubuntu/my_space/autonomous_ROS/build/slam_launch': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/slam_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/slam_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ubuntu/my_space/autonomous_ROS/build/slam_launch/build
+[4.291s] running develop
+[5.069s] Removing /home/ubuntu/my_space/autonomous_ROS/install/slam_launch/lib/python3.10/site-packages/slam-launch.egg-link (link to .)
+[5.204s] Invoked command in '/home/ubuntu/my_space/autonomous_ROS/build/slam_launch' returned '0': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/slam_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/slam_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ubuntu/my_space/autonomous_ROS/build/slam_launch/build
+[5.211s] Invoking command in '/home/ubuntu/my_space/autonomous_ROS/src/slam_launch': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/slam_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/slam_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/slam_launch build --build-base /home/ubuntu/my_space/autonomous_ROS/build/slam_launch/build install --record /home/ubuntu/my_space/autonomous_ROS/build/slam_launch/install.log --single-version-externally-managed install_data --force
+[6.393s] running egg_info
+[6.396s] writing ../../build/slam_launch/slam_launch.egg-info/PKG-INFO
+[6.397s] writing dependency_links to ../../build/slam_launch/slam_launch.egg-info/dependency_links.txt
+[6.398s] writing entry points to ../../build/slam_launch/slam_launch.egg-info/entry_points.txt
+[6.400s] writing requirements to ../../build/slam_launch/slam_launch.egg-info/requires.txt
+[6.401s] writing top-level names to ../../build/slam_launch/slam_launch.egg-info/top_level.txt
+[6.410s] reading manifest file '../../build/slam_launch/slam_launch.egg-info/SOURCES.txt'
+[6.414s] writing manifest file '../../build/slam_launch/slam_launch.egg-info/SOURCES.txt'
+[6.415s] running build
+[6.416s] running build_py
+[6.417s] running install
+[6.418s] running install_lib
+[6.421s] creating /home/ubuntu/my_space/autonomous_ROS/install/slam_launch/lib/python3.10/site-packages/slam_launch
+[6.422s] copying /home/ubuntu/my_space/autonomous_ROS/build/slam_launch/build/lib/slam_launch/__init__.py -> /home/ubuntu/my_space/autonomous_ROS/install/slam_launch/lib/python3.10/site-packages/slam_launch
+[6.425s] byte-compiling /home/ubuntu/my_space/autonomous_ROS/install/slam_launch/lib/python3.10/site-packages/slam_launch/__init__.py to __init__.cpython-310.pyc
+[6.427s] running install_data
+[6.428s] copying resource/slam_launch -> /home/ubuntu/my_space/autonomous_ROS/install/slam_launch/share/ament_index/resource_index/packages
+[6.429s] copying package.xml -> /home/ubuntu/my_space/autonomous_ROS/install/slam_launch/share/slam_launch
+[6.431s] error: can't copy 'src/slam_launch/config/slam_toolbox_config.yaml': doesn't exist or not a regular file
+[6.533s] Invoked command in '/home/ubuntu/my_space/autonomous_ROS/src/slam_launch' returned '1': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/slam_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/slam_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/slam_launch build --build-base /home/ubuntu/my_space/autonomous_ROS/build/slam_launch/build install --record /home/ubuntu/my_space/autonomous_ROS/build/slam_launch/install.log --single-version-externally-managed install_data --force

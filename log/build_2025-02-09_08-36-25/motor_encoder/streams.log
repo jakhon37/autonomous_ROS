@@ -1,0 +1,17 @@
+[8.942s] Invoking command in '/home/ubuntu/my_space/autonomous_ROS/build/motor_encoder': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/motor_encoder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/my_space/autonomous_ROS/build/motor_encoder/build --no-deps symlink_data
+[11.312s] running develop
+[13.016s] running egg_info
+[13.018s] writing motor_encoder.egg-info/PKG-INFO
+[13.022s] writing dependency_links to motor_encoder.egg-info/dependency_links.txt
+[13.025s] writing entry points to motor_encoder.egg-info/entry_points.txt
+[13.026s] writing requirements to motor_encoder.egg-info/requires.txt
+[13.027s] writing top-level names to motor_encoder.egg-info/top_level.txt
+[13.033s] reading manifest file 'motor_encoder.egg-info/SOURCES.txt'
+[13.038s] writing manifest file 'motor_encoder.egg-info/SOURCES.txt'
+[13.047s] running build_ext
+[13.048s] Creating /home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/lib/python3.10/site-packages/motor-encoder.egg-link (link to .)
+[13.055s] Installing dual_encoder_node script to /home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/lib/motor_encoder
+[13.058s] 
+[13.058s] Installed /home/ubuntu/my_space/autonomous_ROS/build/motor_encoder
+[13.060s] running symlink_data
+[14.313s] Invoked command in '/home/ubuntu/my_space/autonomous_ROS/build/motor_encoder' returned '0': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/motor_encoder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/my_space/autonomous_ROS/build/motor_encoder/build --no-deps symlink_data

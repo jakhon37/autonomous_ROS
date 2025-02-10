@@ -1,0 +1,17 @@
+[8.962s] Invoking command in '/home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control/build --no-deps symlink_data
+[10.874s] running develop
+[12.053s] running egg_info
+[12.062s] writing enc_motor_control.egg-info/PKG-INFO
+[12.063s] writing dependency_links to enc_motor_control.egg-info/dependency_links.txt
+[12.065s] writing entry points to enc_motor_control.egg-info/entry_points.txt
+[12.066s] writing requirements to enc_motor_control.egg-info/requires.txt
+[12.067s] writing top-level names to enc_motor_control.egg-info/top_level.txt
+[12.077s] reading manifest file 'enc_motor_control.egg-info/SOURCES.txt'
+[12.077s] writing manifest file 'enc_motor_control.egg-info/SOURCES.txt'
+[12.085s] running build_ext
+[12.086s] Creating /home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/lib/python3.10/site-packages/enc-motor-control.egg-link (link to .)
+[12.093s] Installing enc_motor_controller script to /home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/lib/enc_motor_control
+[12.094s] 
+[12.095s] Installed /home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control
+[12.096s] running symlink_data
+[12.358s] Invoked command in '/home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control' returned '0': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control/build --no-deps symlink_data

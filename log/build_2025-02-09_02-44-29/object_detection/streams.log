@@ -1,0 +1,24 @@
+[3.705s] Invoking command in '/home/ubuntu/my_space/autonomous_ROS/src/object_detection': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_detection build --build-base /home/ubuntu/my_space/autonomous_ROS/build/object_detection/build install --record /home/ubuntu/my_space/autonomous_ROS/build/object_detection/install.log --single-version-externally-managed install_data
+[4.833s] running egg_info
+[4.836s] writing ../../build/object_detection/object_detection.egg-info/PKG-INFO
+[4.837s] writing dependency_links to ../../build/object_detection/object_detection.egg-info/dependency_links.txt
+[4.838s] writing entry points to ../../build/object_detection/object_detection.egg-info/entry_points.txt
+[4.840s] writing requirements to ../../build/object_detection/object_detection.egg-info/requires.txt
+[4.841s] writing top-level names to ../../build/object_detection/object_detection.egg-info/top_level.txt
+[4.850s] reading manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[4.855s] writing manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[4.856s] running build
+[4.856s] running build_py
+[4.857s] copying object_detection/camera_go.py -> /home/ubuntu/my_space/autonomous_ROS/build/object_detection/build/lib/object_detection
+[4.859s] running install
+[4.861s] running install_lib
+[4.865s] copying /home/ubuntu/my_space/autonomous_ROS/build/object_detection/build/lib/object_detection/camera_go.py -> /home/ubuntu/my_space/autonomous_ROS/install/object_detection/lib/python3.10/site-packages/object_detection
+[4.868s] byte-compiling /home/ubuntu/my_space/autonomous_ROS/install/object_detection/lib/python3.10/site-packages/object_detection/camera_go.py to camera_go.cpython-310.pyc
+[4.872s] running install_data
+[4.872s] running install_egg_info
+[4.880s] removing '/home/ubuntu/my_space/autonomous_ROS/install/object_detection/lib/python3.10/site-packages/object_detection-0.0.0-py3.10.egg-info' (and everything under it)
+[4.882s] Copying ../../build/object_detection/object_detection.egg-info to /home/ubuntu/my_space/autonomous_ROS/install/object_detection/lib/python3.10/site-packages/object_detection-0.0.0-py3.10.egg-info
+[4.891s] running install_scripts
+[4.980s] Installing camera_go script to /home/ubuntu/my_space/autonomous_ROS/install/object_detection/lib/object_detection
+[4.981s] writing list of installed files to '/home/ubuntu/my_space/autonomous_ROS/build/object_detection/install.log'
+[5.102s] Invoked command in '/home/ubuntu/my_space/autonomous_ROS/src/object_detection' returned '0': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_detection build --build-base /home/ubuntu/my_space/autonomous_ROS/build/object_detection/build install --record /home/ubuntu/my_space/autonomous_ROS/build/object_detection/install.log --single-version-externally-managed install_data

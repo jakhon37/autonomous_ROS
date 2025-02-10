@@ -45,7 +45,7 @@ try:
     # Monitor encoder readings for 10 seconds
     start_time = time.time()
     initial_count = pulse_count
-    while time.time() - start_time < 10:
+    while time.time() - start_time < 50:
         time.sleep(1)
         current_count = pulse_count - initial_count
         elapsed = time.time() - start_time

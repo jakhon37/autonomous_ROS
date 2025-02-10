@@ -1,0 +1,37 @@
+[3.412s] Invoking command in '/home/ubuntu/my_space/autonomous_ROS/src/object_detection': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_detection build --build-base /home/ubuntu/my_space/autonomous_ROS/build/object_detection/build install --record /home/ubuntu/my_space/autonomous_ROS/build/object_detection/install.log --single-version-externally-managed install_data
+[4.756s] running egg_info
+[4.759s] creating ../../build/object_detection/object_detection.egg-info
+[4.761s] writing ../../build/object_detection/object_detection.egg-info/PKG-INFO
+[4.762s] writing dependency_links to ../../build/object_detection/object_detection.egg-info/dependency_links.txt
+[4.763s] writing entry points to ../../build/object_detection/object_detection.egg-info/entry_points.txt
+[4.765s] writing requirements to ../../build/object_detection/object_detection.egg-info/requires.txt
+[4.765s] writing top-level names to ../../build/object_detection/object_detection.egg-info/top_level.txt
+[4.767s] writing manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[4.776s] reading manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[4.781s] writing manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[4.782s] running build
+[4.784s] running build_py
+[4.785s] creating /home/ubuntu/my_space/autonomous_ROS/build/object_detection/build
+[4.786s] creating /home/ubuntu/my_space/autonomous_ROS/build/object_detection/build/lib
+[4.787s] creating /home/ubuntu/my_space/autonomous_ROS/build/object_detection/build/lib/object_detection
+[4.787s] copying object_detection/__init__.py -> /home/ubuntu/my_space/autonomous_ROS/build/object_detection/build/lib/object_detection
+[4.789s] copying object_detection/object_detection_node.py -> /home/ubuntu/my_space/autonomous_ROS/build/object_detection/build/lib/object_detection
+[4.790s] running install
+[4.791s] running install_lib
+[4.793s] creating /home/ubuntu/my_space/autonomous_ROS/install/object_detection/lib/python3.10/site-packages/object_detection
+[4.794s] copying /home/ubuntu/my_space/autonomous_ROS/build/object_detection/build/lib/object_detection/__init__.py -> /home/ubuntu/my_space/autonomous_ROS/install/object_detection/lib/python3.10/site-packages/object_detection
+[4.795s] copying /home/ubuntu/my_space/autonomous_ROS/build/object_detection/build/lib/object_detection/object_detection_node.py -> /home/ubuntu/my_space/autonomous_ROS/install/object_detection/lib/python3.10/site-packages/object_detection
+[4.798s] byte-compiling /home/ubuntu/my_space/autonomous_ROS/install/object_detection/lib/python3.10/site-packages/object_detection/__init__.py to __init__.cpython-310.pyc
+[4.800s] byte-compiling /home/ubuntu/my_space/autonomous_ROS/install/object_detection/lib/python3.10/site-packages/object_detection/object_detection_node.py to object_detection_node.cpython-310.pyc
+[4.805s] running install_data
+[4.807s] creating /home/ubuntu/my_space/autonomous_ROS/install/object_detection/share/ament_index
+[4.808s] creating /home/ubuntu/my_space/autonomous_ROS/install/object_detection/share/ament_index/resource_index
+[4.809s] creating /home/ubuntu/my_space/autonomous_ROS/install/object_detection/share/ament_index/resource_index/packages
+[4.810s] copying resource/object_detection -> /home/ubuntu/my_space/autonomous_ROS/install/object_detection/share/ament_index/resource_index/packages
+[4.811s] copying package.xml -> /home/ubuntu/my_space/autonomous_ROS/install/object_detection/share/object_detection
+[4.811s] running install_egg_info
+[4.819s] Copying ../../build/object_detection/object_detection.egg-info to /home/ubuntu/my_space/autonomous_ROS/install/object_detection/lib/python3.10/site-packages/object_detection-0.0.0-py3.10.egg-info
+[4.828s] running install_scripts
+[4.942s] Installing object_detection_node script to /home/ubuntu/my_space/autonomous_ROS/install/object_detection/lib/object_detection
+[4.948s] writing list of installed files to '/home/ubuntu/my_space/autonomous_ROS/build/object_detection/install.log'
+[5.077s] Invoked command in '/home/ubuntu/my_space/autonomous_ROS/src/object_detection' returned '0': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_detection build --build-base /home/ubuntu/my_space/autonomous_ROS/build/object_detection/build install --record /home/ubuntu/my_space/autonomous_ROS/build/object_detection/install.log --single-version-externally-managed install_data

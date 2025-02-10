@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.001119] (-) JobUnselected: {'identifier': 'enc_motor_control'}
+[0.001356] (-) JobUnselected: {'identifier': 'motor_control'}
+[0.001535] (-) JobUnselected: {'identifier': 'motor_encoder'}
+[0.001884] (-) JobUnselected: {'identifier': 'mpu6050_imu'}
+[0.002167] (-) JobUnselected: {'identifier': 'mybot37'}
+[0.002479] (-) EventReactorShutdown: {}

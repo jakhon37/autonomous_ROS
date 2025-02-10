@@ -1,0 +1,17 @@
+[9.324s] Invoking command in '/home/ubuntu/my_space/autonomous_ROS/build/object_detection': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/my_space/autonomous_ROS/build/object_detection/build --no-deps symlink_data
+[11.396s] running develop
+[12.629s] running egg_info
+[12.633s] writing object_detection.egg-info/PKG-INFO
+[12.635s] writing dependency_links to object_detection.egg-info/dependency_links.txt
+[12.642s] writing entry points to object_detection.egg-info/entry_points.txt
+[12.650s] writing requirements to object_detection.egg-info/requires.txt
+[12.651s] writing top-level names to object_detection.egg-info/top_level.txt
+[12.657s] reading manifest file 'object_detection.egg-info/SOURCES.txt'
+[12.666s] writing manifest file 'object_detection.egg-info/SOURCES.txt'
+[12.686s] running build_ext
+[12.689s] Creating /home/ubuntu/my_space/autonomous_ROS/install/object_detection/lib/python3.10/site-packages/object-detection.egg-link (link to .)
+[12.705s] Installing camera_go script to /home/ubuntu/my_space/autonomous_ROS/install/object_detection/lib/object_detection
+[12.712s] 
+[12.713s] Installed /home/ubuntu/my_space/autonomous_ROS/build/object_detection
+[12.732s] running symlink_data
+[13.137s] Invoked command in '/home/ubuntu/my_space/autonomous_ROS/build/object_detection' returned '0': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/my_space/autonomous_ROS/build/object_detection/build --no-deps symlink_data

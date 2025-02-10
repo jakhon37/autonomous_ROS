@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:28 (find_package):
+  By not providing "Findrviz_common.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "rviz_common", but CMake did not find one.
+
+  Could not find a package configuration file provided by "rviz_common" with
+  any of the following names:
+
+    rviz_commonConfig.cmake
+    rviz_common-config.cmake
+
+  Add the installation prefix of "rviz_common" to CMAKE_PREFIX_PATH or set
+  "rviz_common_DIR" to a directory containing one of the above files.  If
+  "rviz_common" provides a separate development package or SDK, be sure it
+  has been installed.
+
+[0m

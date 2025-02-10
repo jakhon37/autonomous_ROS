@@ -1,0 +1,8 @@
+[0.000000] (-) TimerEvent: {}
+[0.001570] (-) JobUnselected: {'identifier': 'dual_motor'}
+[0.001898] (-) JobUnselected: {'identifier': 'motor_encoder'}
+[0.002024] (-) JobUnselected: {'identifier': 'mpu6050_imu'}
+[0.002407] (-) JobUnselected: {'identifier': 'my_robot_slam'}
+[0.002743] (-) JobUnselected: {'identifier': 'object_detection'}
+[0.003066] (-) JobUnselected: {'identifier': 'slam_toolbox'}
+[0.003229] (-) EventReactorShutdown: {}

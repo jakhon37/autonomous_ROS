@@ -1,0 +1,3 @@
+[console_scripts]
+enc_motor_controller = enc_motor_control.enc_motor_controller:main
+

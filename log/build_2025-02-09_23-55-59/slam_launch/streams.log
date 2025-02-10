@@ -1,0 +1,33 @@
+[4.049s] Invoking command in '/home/ubuntu/my_space/autonomous_ROS/src/slam_launch': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/slam_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/slam_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/slam_launch build --build-base /home/ubuntu/my_space/autonomous_ROS/build/slam_launch/build install --record /home/ubuntu/my_space/autonomous_ROS/build/slam_launch/install.log --single-version-externally-managed install_data
+[5.327s] running egg_info
+[5.329s] creating ../../build/slam_launch/slam_launch.egg-info
+[5.330s] writing ../../build/slam_launch/slam_launch.egg-info/PKG-INFO
+[5.331s] writing dependency_links to ../../build/slam_launch/slam_launch.egg-info/dependency_links.txt
+[5.332s] writing entry points to ../../build/slam_launch/slam_launch.egg-info/entry_points.txt
+[5.333s] writing requirements to ../../build/slam_launch/slam_launch.egg-info/requires.txt
+[5.333s] writing top-level names to ../../build/slam_launch/slam_launch.egg-info/top_level.txt
+[5.334s] writing manifest file '../../build/slam_launch/slam_launch.egg-info/SOURCES.txt'
+[5.343s] reading manifest file '../../build/slam_launch/slam_launch.egg-info/SOURCES.txt'
+[5.346s] writing manifest file '../../build/slam_launch/slam_launch.egg-info/SOURCES.txt'
+[5.347s] running build
+[5.347s] running build_py
+[5.348s] creating /home/ubuntu/my_space/autonomous_ROS/build/slam_launch/build
+[5.349s] creating /home/ubuntu/my_space/autonomous_ROS/build/slam_launch/build/lib
+[5.349s] creating /home/ubuntu/my_space/autonomous_ROS/build/slam_launch/build/lib/slam_launch
+[5.350s] copying slam_launch/__init__.py -> /home/ubuntu/my_space/autonomous_ROS/build/slam_launch/build/lib/slam_launch
+[5.350s] running install
+[5.351s] running install_lib
+[5.355s] creating /home/ubuntu/my_space/autonomous_ROS/install/slam_launch/lib/python3.10/site-packages/slam_launch
+[5.355s] copying /home/ubuntu/my_space/autonomous_ROS/build/slam_launch/build/lib/slam_launch/__init__.py -> /home/ubuntu/my_space/autonomous_ROS/install/slam_launch/lib/python3.10/site-packages/slam_launch
+[5.359s] byte-compiling /home/ubuntu/my_space/autonomous_ROS/install/slam_launch/lib/python3.10/site-packages/slam_launch/__init__.py to __init__.cpython-310.pyc
+[5.360s] running install_data
+[5.361s] creating /home/ubuntu/my_space/autonomous_ROS/install/slam_launch/share/ament_index
+[5.361s] creating /home/ubuntu/my_space/autonomous_ROS/install/slam_launch/share/ament_index/resource_index
+[5.363s] creating /home/ubuntu/my_space/autonomous_ROS/install/slam_launch/share/ament_index/resource_index/packages
+[5.364s] copying resource/slam_launch -> /home/ubuntu/my_space/autonomous_ROS/install/slam_launch/share/ament_index/resource_index/packages
+[5.364s] copying package.xml -> /home/ubuntu/my_space/autonomous_ROS/install/slam_launch/share/slam_launch
+[5.365s] running install_egg_info
+[5.373s] Copying ../../build/slam_launch/slam_launch.egg-info to /home/ubuntu/my_space/autonomous_ROS/install/slam_launch/lib/python3.10/site-packages/slam_launch-0.0.0-py3.10.egg-info
+[5.380s] running install_scripts
+[5.476s] writing list of installed files to '/home/ubuntu/my_space/autonomous_ROS/build/slam_launch/install.log'
+[5.600s] Invoked command in '/home/ubuntu/my_space/autonomous_ROS/src/slam_launch' returned '0': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/slam_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/slam_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/slam_launch build --build-base /home/ubuntu/my_space/autonomous_ROS/build/slam_launch/build install --record /home/ubuntu/my_space/autonomous_ROS/build/slam_launch/install.log --single-version-externally-managed install_data

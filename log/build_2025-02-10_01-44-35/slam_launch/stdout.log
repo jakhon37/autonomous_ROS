@@ -1,0 +1,18 @@
+running egg_info
+writing ../../build/slam_launch/slam_launch.egg-info/PKG-INFO
+writing dependency_links to ../../build/slam_launch/slam_launch.egg-info/dependency_links.txt
+writing entry points to ../../build/slam_launch/slam_launch.egg-info/entry_points.txt
+writing requirements to ../../build/slam_launch/slam_launch.egg-info/requires.txt
+writing top-level names to ../../build/slam_launch/slam_launch.egg-info/top_level.txt
+reading manifest file '../../build/slam_launch/slam_launch.egg-info/SOURCES.txt'
+writing manifest file '../../build/slam_launch/slam_launch.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying config/slam_toolbox_config.yaml -> /home/ubuntu/my_space/autonomous_ROS/install/slam_launch/share/slam_launch
+running install_egg_info
+Copying ../../build/slam_launch/slam_launch.egg-info to /home/ubuntu/my_space/autonomous_ROS/install/slam_launch/lib/python3.10/site-packages/slam_launch-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/ubuntu/my_space/autonomous_ROS/build/slam_launch/install.log'

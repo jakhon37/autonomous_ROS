@@ -1,0 +1,266 @@
+[0.000000] (-) TimerEvent: {}
+[0.001949] (dual_motor) JobQueued: {'identifier': 'dual_motor', 'dependencies': OrderedDict()}
+[0.002642] (enc_motor_control) JobQueued: {'identifier': 'enc_motor_control', 'dependencies': OrderedDict()}
+[0.003220] (motor_control) JobQueued: {'identifier': 'motor_control', 'dependencies': OrderedDict()}
+[0.003445] (motor_encoder) JobQueued: {'identifier': 'motor_encoder', 'dependencies': OrderedDict()}
+[0.003759] (mpu6050_imu) JobQueued: {'identifier': 'mpu6050_imu', 'dependencies': OrderedDict()}
+[0.003948] (mybot37) JobQueued: {'identifier': 'mybot37', 'dependencies': OrderedDict()}
+[0.004056] (object_detection) JobQueued: {'identifier': 'object_detection', 'dependencies': OrderedDict()}
+[0.004169] (dual_motor) JobStarted: {'identifier': 'dual_motor'}
+[0.044948] (enc_motor_control) JobStarted: {'identifier': 'enc_motor_control'}
+[0.074141] (motor_control) JobStarted: {'identifier': 'motor_control'}
+[0.098802] (-) TimerEvent: {}
+[0.107699] (motor_encoder) JobStarted: {'identifier': 'motor_encoder'}
+[0.199000] (-) TimerEvent: {}
+[0.299824] (-) TimerEvent: {}
+[0.400712] (-) TimerEvent: {}
+[0.501552] (-) TimerEvent: {}
+[0.602379] (-) TimerEvent: {}
+[0.703346] (-) TimerEvent: {}
+[0.804166] (-) TimerEvent: {}
+[0.904928] (-) TimerEvent: {}
+[1.005720] (-) TimerEvent: {}
+[1.106536] (-) TimerEvent: {}
+[1.207410] (-) TimerEvent: {}
+[1.308350] (-) TimerEvent: {}
+[1.409349] (-) TimerEvent: {}
+[1.510318] (-) TimerEvent: {}
+[1.611209] (-) TimerEvent: {}
+[1.712043] (-) TimerEvent: {}
+[1.812815] (-) TimerEvent: {}
+[1.913728] (-) TimerEvent: {}
+[2.014554] (-) TimerEvent: {}
+[2.115459] (-) TimerEvent: {}
+[2.216244] (-) TimerEvent: {}
+[2.317005] (-) TimerEvent: {}
+[2.417836] (-) TimerEvent: {}
+[2.518666] (-) TimerEvent: {}
+[2.619647] (-) TimerEvent: {}
+[2.720836] (-) TimerEvent: {}
+[2.821646] (-) TimerEvent: {}
+[2.922464] (-) TimerEvent: {}
+[3.023323] (-) TimerEvent: {}
+[3.124144] (-) TimerEvent: {}
+[3.225017] (-) TimerEvent: {}
+[3.325835] (-) TimerEvent: {}
+[3.426615] (-) TimerEvent: {}
+[3.527474] (-) TimerEvent: {}
+[3.628271] (-) TimerEvent: {}
+[3.729096] (-) TimerEvent: {}
+[3.830107] (-) TimerEvent: {}
+[3.931359] (-) TimerEvent: {}
+[4.032530] (-) TimerEvent: {}
+[4.133564] (-) TimerEvent: {}
+[4.235006] (-) TimerEvent: {}
+[4.335819] (-) TimerEvent: {}
+[4.436635] (-) TimerEvent: {}
+[4.537483] (-) TimerEvent: {}
+[4.638315] (-) TimerEvent: {}
+[4.739094] (-) TimerEvent: {}
+[4.839858] (-) TimerEvent: {}
+[4.940630] (-) TimerEvent: {}
+[5.041465] (-) TimerEvent: {}
+[5.142256] (-) TimerEvent: {}
+[5.243324] (-) TimerEvent: {}
+[5.344539] (-) TimerEvent: {}
+[5.445442] (-) TimerEvent: {}
+[5.546397] (-) TimerEvent: {}
+[5.647424] (-) TimerEvent: {}
+[5.748452] (-) TimerEvent: {}
+[5.849767] (-) TimerEvent: {}
+[5.951245] (-) TimerEvent: {}
+[6.052329] (-) TimerEvent: {}
+[6.153354] (-) TimerEvent: {}
+[6.254258] (-) TimerEvent: {}
+[6.355228] (-) TimerEvent: {}
+[6.456167] (-) TimerEvent: {}
+[6.557136] (-) TimerEvent: {}
+[6.658077] (-) TimerEvent: {}
+[6.759075] (-) TimerEvent: {}
+[6.860120] (-) TimerEvent: {}
+[6.961603] (-) TimerEvent: {}
+[7.062493] (-) TimerEvent: {}
+[7.163443] (-) TimerEvent: {}
+[7.264549] (-) TimerEvent: {}
+[7.365617] (-) TimerEvent: {}
+[7.466971] (-) TimerEvent: {}
+[7.567890] (-) TimerEvent: {}
+[7.668790] (-) TimerEvent: {}
+[7.769832] (-) TimerEvent: {}
+[7.870934] (-) TimerEvent: {}
+[7.972569] (-) TimerEvent: {}
+[8.041947] (motor_encoder) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/my_space/autonomous_ROS/build/motor_encoder/build', '--no-deps', 'symlink_data'], 'cwd': '/home/ubuntu/my_space/autonomous_ROS/build/motor_encoder', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.219.102 49558 22', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'TERM_PROGRAM_VERSION': '1.96.4', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-87abee26-779f-45c8-bc37-a6b8635e990a.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'C.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/my_space/autonomous_ROS/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'C.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-44ba984aac.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/ubuntu/my_space/autonomous_ROS/install/object_detection:/home/ubuntu/my_space/autonomous_ROS/install/mpu6050_imu:/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder:/home/ubuntu/my_space/autonomous_ROS/install/motor_control:/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control:/home/ubuntu/my_space/autonomous_ROS/install/dual_motor:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'LC_IDENTIFICATION': 'C.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/my_space/autonomous_ROS/build/motor_encoder', 'SSH_CONNECTION': '192.168.219.102 49558 192.168.219.100 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/my_space/autonomous_ROS/build/motor_encoder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/install/object_detection/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/install/mpu6050_imu/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/build/motor_encoder:/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/build/motor_control:/home/ubuntu/my_space/autonomous_ROS/install/motor_control/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control:/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/build/dual_motor:/home/ubuntu/my_space/autonomous_ROS/install/dual_motor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1'}, 'shell': False}
+[8.081234] (-) TimerEvent: {}
+[8.182271] (-) TimerEvent: {}
+[8.250532] (motor_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/my_space/autonomous_ROS/build/motor_control/build', '--no-deps', 'symlink_data'], 'cwd': '/home/ubuntu/my_space/autonomous_ROS/build/motor_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.219.102 49558 22', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'TERM_PROGRAM_VERSION': '1.96.4', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-87abee26-779f-45c8-bc37-a6b8635e990a.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'C.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/my_space/autonomous_ROS/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'C.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-44ba984aac.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/ubuntu/my_space/autonomous_ROS/install/object_detection:/home/ubuntu/my_space/autonomous_ROS/install/mpu6050_imu:/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder:/home/ubuntu/my_space/autonomous_ROS/install/motor_control:/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control:/home/ubuntu/my_space/autonomous_ROS/install/dual_motor:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'LC_IDENTIFICATION': 'C.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/my_space/autonomous_ROS/build/motor_control', 'SSH_CONNECTION': '192.168.219.102 49558 192.168.219.100 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/my_space/autonomous_ROS/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/motor_control/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/install/object_detection/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/install/mpu6050_imu/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/build/motor_encoder:/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/build/motor_control:/home/ubuntu/my_space/autonomous_ROS/install/motor_control/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control:/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/build/dual_motor:/home/ubuntu/my_space/autonomous_ROS/install/dual_motor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1'}, 'shell': False}
+[8.282508] (-) TimerEvent: {}
+[8.371120] (dual_motor) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/my_space/autonomous_ROS/build/dual_motor/build', '--no-deps', 'symlink_data'], 'cwd': '/home/ubuntu/my_space/autonomous_ROS/build/dual_motor', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.219.102 49558 22', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'TERM_PROGRAM_VERSION': '1.96.4', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-87abee26-779f-45c8-bc37-a6b8635e990a.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'C.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/my_space/autonomous_ROS/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'C.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-44ba984aac.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/ubuntu/my_space/autonomous_ROS/install/object_detection:/home/ubuntu/my_space/autonomous_ROS/install/mpu6050_imu:/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder:/home/ubuntu/my_space/autonomous_ROS/install/motor_control:/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control:/home/ubuntu/my_space/autonomous_ROS/install/dual_motor:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'LC_IDENTIFICATION': 'C.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/my_space/autonomous_ROS/build/dual_motor', 'SSH_CONNECTION': '192.168.219.102 49558 192.168.219.100 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/my_space/autonomous_ROS/build/dual_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/dual_motor/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/install/object_detection/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/install/mpu6050_imu/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/build/motor_encoder:/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/build/motor_control:/home/ubuntu/my_space/autonomous_ROS/install/motor_control/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control:/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/build/dual_motor:/home/ubuntu/my_space/autonomous_ROS/install/dual_motor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1'}, 'shell': False}
+[8.397925] (-) TimerEvent: {}
+[8.500038] (-) TimerEvent: {}
+[8.601635] (-) TimerEvent: {}
+[8.703057] (-) TimerEvent: {}
+[8.764889] (enc_motor_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control/build', '--no-deps', 'symlink_data'], 'cwd': '/home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.219.102 49558 22', 'LC_TIME': 'C.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'TERM_PROGRAM_VERSION': '1.96.4', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-87abee26-779f-45c8-bc37-a6b8635e990a.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'C.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/my_space/autonomous_ROS/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'C.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-44ba984aac.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/ubuntu/my_space/autonomous_ROS/install/object_detection:/home/ubuntu/my_space/autonomous_ROS/install/mpu6050_imu:/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder:/home/ubuntu/my_space/autonomous_ROS/install/motor_control:/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control:/home/ubuntu/my_space/autonomous_ROS/install/dual_motor:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'C.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'C.UTF-8', 'LC_IDENTIFICATION': 'C.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control', 'SSH_CONNECTION': '192.168.219.102 49558 192.168.219.100 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/install/object_detection/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/install/mpu6050_imu/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/build/motor_encoder:/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/build/motor_control:/home/ubuntu/my_space/autonomous_ROS/install/motor_control/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control:/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/build/dual_motor:/home/ubuntu/my_space/autonomous_ROS/install/dual_motor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'C.UTF-8', 'LC_PAPER': 'C.UTF-8', 'COLCON': '1'}, 'shell': False}
+[8.803356] (-) TimerEvent: {}
+[8.905694] (-) TimerEvent: {}
+[9.007689] (-) TimerEvent: {}
+[9.109531] (-) TimerEvent: {}
+[9.211640] (-) TimerEvent: {}
+[9.313269] (-) TimerEvent: {}
+[9.415497] (-) TimerEvent: {}
+[9.518176] (-) TimerEvent: {}
+[9.619191] (-) TimerEvent: {}
+[9.720143] (-) TimerEvent: {}
+[9.827221] (-) TimerEvent: {}
+[9.928811] (-) TimerEvent: {}
+[10.031215] (-) TimerEvent: {}
+[10.133767] (-) TimerEvent: {}
+[10.236217] (-) TimerEvent: {}
+[10.338772] (-) TimerEvent: {}
+[10.411177] (motor_control) StdoutLine: {'line': b'running develop\n'}
+[10.439028] (-) TimerEvent: {}
+[10.541235] (-) TimerEvent: {}
+[10.644079] (-) TimerEvent: {}
+[10.703299] (motor_encoder) StdoutLine: {'line': b'running develop\n'}
+[10.744306] (-) TimerEvent: {}
+[10.845304] (-) TimerEvent: {}
+[10.914251] (dual_motor) StdoutLine: {'line': b'running develop\n'}
+[10.945494] (-) TimerEvent: {}
+[11.046386] (-) TimerEvent: {}
+[11.145049] (enc_motor_control) StdoutLine: {'line': b'running develop\n'}
+[11.147636] (-) TimerEvent: {}
+[11.249229] (-) TimerEvent: {}
+[11.350830] (-) TimerEvent: {}
+[11.452503] (-) TimerEvent: {}
+[11.554163] (-) TimerEvent: {}
+[11.589610] (motor_control) StdoutLine: {'line': b'running egg_info\n'}
+[11.592596] (motor_control) StdoutLine: {'line': b'writing motor_control.egg-info/PKG-INFO\n'}
+[11.593452] (motor_control) StdoutLine: {'line': b'writing dependency_links to motor_control.egg-info/dependency_links.txt\n'}
+[11.595312] (motor_control) StdoutLine: {'line': b'writing entry points to motor_control.egg-info/entry_points.txt\n'}
+[11.597482] (motor_control) StdoutLine: {'line': b'writing requirements to motor_control.egg-info/requires.txt\n'}
+[11.598109] (motor_control) StdoutLine: {'line': b'writing top-level names to motor_control.egg-info/top_level.txt\n'}
+[11.604878] (motor_control) StdoutLine: {'line': b"reading manifest file 'motor_control.egg-info/SOURCES.txt'\n"}
+[11.610952] (motor_control) StdoutLine: {'line': b"writing manifest file 'motor_control.egg-info/SOURCES.txt'\n"}
+[11.621480] (motor_control) StdoutLine: {'line': b'running build_ext\n'}
+[11.624005] (motor_control) StdoutLine: {'line': b'Creating /home/ubuntu/my_space/autonomous_ROS/install/motor_control/lib/python3.10/site-packages/motor-control.egg-link (link to .)\n'}
+[11.628097] (motor_control) StdoutLine: {'line': b'Installing motor_controller script to /home/ubuntu/my_space/autonomous_ROS/install/motor_control/lib/motor_control\n'}
+[11.629931] (motor_control) StdoutLine: {'line': b'\n'}
+[11.631011] (motor_control) StdoutLine: {'line': b'Installed /home/ubuntu/my_space/autonomous_ROS/build/motor_control\n'}
+[11.631847] (motor_control) StdoutLine: {'line': b'running symlink_data\n'}
+[11.632934] (motor_control) StdoutLine: {'line': b'creating /home/ubuntu/my_space/autonomous_ROS/install/motor_control/share/ament_index\n'}
+[11.633825] (motor_control) StdoutLine: {'line': b'creating /home/ubuntu/my_space/autonomous_ROS/install/motor_control/share/ament_index/resource_index\n'}
+[11.635126] (motor_control) StdoutLine: {'line': b'creating /home/ubuntu/my_space/autonomous_ROS/install/motor_control/share/ament_index/resource_index/packages\n'}
+[11.636332] (motor_control) StdoutLine: {'line': b'symbolically linking /home/ubuntu/my_space/autonomous_ROS/build/motor_control/resource/motor_control -> /home/ubuntu/my_space/autonomous_ROS/install/motor_control/share/ament_index/resource_index/packages\n'}
+[11.637424] (motor_control) StdoutLine: {'line': b'symbolically linking /home/ubuntu/my_space/autonomous_ROS/build/motor_control/package.xml -> /home/ubuntu/my_space/autonomous_ROS/install/motor_control/share/motor_control\n'}
+[11.654579] (-) TimerEvent: {}
+[11.756250] (-) TimerEvent: {}
+[11.829158] (motor_control) CommandEnded: {'returncode': 0}
+[11.856732] (-) TimerEvent: {}
+[11.934942] (motor_encoder) StdoutLine: {'line': b'running egg_info\n'}
+[11.936139] (motor_encoder) StdoutLine: {'line': b'writing motor_encoder.egg-info/PKG-INFO\n'}
+[11.936777] (motor_encoder) StdoutLine: {'line': b'writing dependency_links to motor_encoder.egg-info/dependency_links.txt\n'}
+[11.937575] (motor_encoder) StdoutLine: {'line': b'writing entry points to motor_encoder.egg-info/entry_points.txt\n'}
+[11.938125] (motor_encoder) StdoutLine: {'line': b'writing requirements to motor_encoder.egg-info/requires.txt\n'}
+[11.938723] (motor_encoder) StdoutLine: {'line': b'writing top-level names to motor_encoder.egg-info/top_level.txt\n'}
+[11.945419] (motor_encoder) StdoutLine: {'line': b"reading manifest file 'motor_encoder.egg-info/SOURCES.txt'\n"}
+[11.950793] (motor_encoder) StdoutLine: {'line': b"writing manifest file 'motor_encoder.egg-info/SOURCES.txt'\n"}
+[11.954602] (motor_control) JobEnded: {'identifier': 'motor_control', 'rc': 0}
+[11.957863] (-) TimerEvent: {}
+[11.963606] (motor_encoder) StdoutLine: {'line': b'running build_ext\n'}
+[11.964382] (motor_encoder) StdoutLine: {'line': b'Creating /home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/lib/python3.10/site-packages/motor-encoder.egg-link (link to .)\n'}
+[11.970203] (motor_encoder) StdoutLine: {'line': b'Installing dual_encoder_node script to /home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/lib/motor_encoder\n'}
+[11.972894] (motor_encoder) StdoutLine: {'line': b'\n'}
+[11.973520] (motor_encoder) StdoutLine: {'line': b'Installed /home/ubuntu/my_space/autonomous_ROS/build/motor_encoder\n'}
+[11.974976] (motor_encoder) StdoutLine: {'line': b'running symlink_data\n'}
+[11.989665] (mpu6050_imu) JobStarted: {'identifier': 'mpu6050_imu'}
+[12.058259] (-) TimerEvent: {}
+[12.160159] (-) TimerEvent: {}
+[12.261264] (-) TimerEvent: {}
+[12.327586] (dual_motor) StdoutLine: {'line': b'running egg_info\n'}
+[12.329372] (dual_motor) StdoutLine: {'line': b'writing dual_motor.egg-info/PKG-INFO\n'}
+[12.331746] (dual_motor) StdoutLine: {'line': b'writing dependency_links to dual_motor.egg-info/dependency_links.txt\n'}
+[12.333898] (dual_motor) StdoutLine: {'line': b'writing entry points to dual_motor.egg-info/entry_points.txt\n'}
+[12.335860] (dual_motor) StdoutLine: {'line': b'writing requirements to dual_motor.egg-info/requires.txt\n'}
+[12.337863] (dual_motor) StdoutLine: {'line': b'writing top-level names to dual_motor.egg-info/top_level.txt\n'}
+[12.347901] (dual_motor) StdoutLine: {'line': b"reading manifest file 'dual_motor.egg-info/SOURCES.txt'\n"}
+[12.353132] (dual_motor) StdoutLine: {'line': b"writing manifest file 'dual_motor.egg-info/SOURCES.txt'\n"}
+[12.361464] (-) TimerEvent: {}
+[12.363353] (dual_motor) StdoutLine: {'line': b'running build_ext\n'}
+[12.364446] (dual_motor) StdoutLine: {'line': b'Creating /home/ubuntu/my_space/autonomous_ROS/install/dual_motor/lib/python3.10/site-packages/dual-motor.egg-link (link to .)\n'}
+[12.370037] (dual_motor) StdoutLine: {'line': b'Installing dual_motor_controller script to /home/ubuntu/my_space/autonomous_ROS/install/dual_motor/lib/dual_motor\n'}
+[12.372473] (dual_motor) StdoutLine: {'line': b'\n'}
+[12.373317] (dual_motor) StdoutLine: {'line': b'Installed /home/ubuntu/my_space/autonomous_ROS/build/dual_motor\n'}
+[12.374168] (dual_motor) StdoutLine: {'line': b'running symlink_data\n'}
+[12.461801] (-) TimerEvent: {}
+[12.563006] (-) TimerEvent: {}
+[12.615660] (enc_motor_control) StdoutLine: {'line': b'running egg_info\n'}
+[12.616548] (enc_motor_control) StdoutLine: {'line': b'writing enc_motor_control.egg-info/PKG-INFO\n'}
+[12.621717] (enc_motor_control) StdoutLine: {'line': b'writing dependency_links to enc_motor_control.egg-info/dependency_links.txt\n'}
+[12.622560] (enc_motor_control) StdoutLine: {'line': b'writing entry points to enc_motor_control.egg-info/entry_points.txt\n'}
+[12.623351] (enc_motor_control) StdoutLine: {'line': b'writing requirements to enc_motor_control.egg-info/requires.txt\n'}
+[12.624306] (enc_motor_control) StdoutLine: {'line': b'writing top-level names to enc_motor_control.egg-info/top_level.txt\n'}
+[12.631754] (enc_motor_control) StdoutLine: {'line': b"reading manifest file 'enc_motor_control.egg-info/SOURCES.txt'\n"}
+[12.636103] (enc_motor_control) StdoutLine: {'line': b"writing manifest file 'enc_motor_control.egg-info/SOURCES.txt'\n"}
+[12.645961] (enc_motor_control) StdoutLine: {'line': b'running build_ext\n'}
+[12.647762] (enc_motor_control) StdoutLine: {'line': b'Creating /home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/lib/python3.10/site-packages/enc-motor-control.egg-link (link to .)\n'}
+[12.652745] (enc_motor_control) StdoutLine: {'line': b'Installing enc_motor_controller script to /home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/lib/enc_motor_control\n'}
+[12.654404] (enc_motor_control) StdoutLine: {'line': b'\n'}
+[12.655787] (enc_motor_control) StdoutLine: {'line': b'Installed /home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control\n'}
+[12.656936] (enc_motor_control) StdoutLine: {'line': b'running symlink_data\n'}
+[12.657646] (enc_motor_control) StdoutLine: {'line': b'creating /home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/share/ament_index\n'}
+[12.659001] (enc_motor_control) StdoutLine: {'line': b'creating /home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/share/ament_index/resource_index\n'}
+[12.661158] (enc_motor_control) StdoutLine: {'line': b'creating /home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/share/ament_index/resource_index/packages\n'}
+[12.663050] (enc_motor_control) StdoutLine: {'line': b'symbolically linking /home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control/resource/enc_motor_control -> /home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/share/ament_index/resource_index/packages\n'}
+[12.664823] (-) TimerEvent: {}
+[12.667849] (enc_motor_control) StdoutLine: {'line': b'symbolically linking /home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control/package.xml -> /home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/share/enc_motor_control\n'}
+[12.765090] (-) TimerEvent: {}
+[12.867350] (-) TimerEvent: {}
+[12.968149] (-) TimerEvent: {}
+[13.068994] (-) TimerEvent: {}
+[13.169893] (-) TimerEvent: {}
+[13.270683] (-) TimerEvent: {}
+[13.371495] (-) TimerEvent: {}
+[13.472280] (-) TimerEvent: {}
+[13.573101] (-) TimerEvent: {}
+[13.674136] (-) TimerEvent: {}
+[13.712568] (dual_motor) CommandEnded: {'returncode': 0}
+[13.758812] (dual_motor) JobEnded: {'identifier': 'dual_motor', 'rc': 0}
+[13.763017] (motor_encoder) CommandEnded: {'returncode': 0}
+[13.774240] (-) TimerEvent: {}
+[13.806040] (motor_encoder) JobEnded: {'identifier': 'motor_encoder', 'rc': 0}
+[13.810806] (enc_motor_control) CommandEnded: {'returncode': 0}
+[13.848803] (enc_motor_control) JobEnded: {'identifier': 'enc_motor_control', 'rc': 0}
+[13.854321] (mybot37) JobStarted: {'identifier': 'mybot37'}
+[13.874538] (object_detection) JobStarted: {'identifier': 'object_detection'}
+[13.876758] (-) TimerEvent: {}
+[13.923463] (mybot37) JobProgress: {'identifier': 'mybot37', 'progress': 'cmake'}
+[13.927614] (mybot37) JobProgress: {'identifier': 'mybot37', 'progress': 'build'}
+[13.931063] (mybot37) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/my_space/autonomous_ROS/build/mybot37', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/my_space/autonomous_ROS/build/mybot37', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.219.102 49558 22'), ('LC_TIME', 'C.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-87abee26-779f-45c8-bc37-a6b8635e990a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'C.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/my_space/autonomous_ROS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'C.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-44ba984aac.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ubuntu/my_space/autonomous_ROS/install/object_detection:/home/ubuntu/my_space/autonomous_ROS/install/mpu6050_imu:/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder:/home/ubuntu/my_space/autonomous_ROS/install/motor_control:/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control:/home/ubuntu/my_space/autonomous_ROS/install/dual_motor:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'C.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'C.UTF-8'), ('LC_IDENTIFICATION', 'C.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/my_space/autonomous_ROS/build/mybot37'), ('SSH_CONNECTION', '192.168.219.102 49558 192.168.219.100 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/my_space/autonomous_ROS/install/object_detection/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/install/mpu6050_imu/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/build/motor_encoder:/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/build/motor_control:/home/ubuntu/my_space/autonomous_ROS/install/motor_control/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control:/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/build/dual_motor:/home/ubuntu/my_space/autonomous_ROS/install/dual_motor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'C.UTF-8'), ('LC_PAPER', 'C.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/my_space/autonomous_ROS/install/object_detection:/home/ubuntu/my_space/autonomous_ROS/install/mpu6050_imu:/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder:/home/ubuntu/my_space/autonomous_ROS/install/motor_control:/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control:/home/ubuntu/my_space/autonomous_ROS/install/dual_motor:/opt/ros/humble')]), 'shell': False}
+[13.972469] (mybot37) StderrLine: {'line': b'\x1b[0mCMake Error: The current CMakeCache.txt directory /home/ubuntu/my_space/autonomous_ROS/build/mybot37/CMakeCache.txt is different than the directory /home/jakhon37/myspace/robotics/autonomous_ROS/build/mybot37 where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt\x1b[0m\n'}
+[13.976991] (-) TimerEvent: {}
+[14.023637] (mybot37) StderrLine: {'line': b'\x1b[0mCMake Error: The source directory "/home/jakhon37/myspace/robotics/autonomous_ROS/src/mybot37" does not exist.\n'}
+[14.024537] (mybot37) StderrLine: {'line': b'Specify --help for usage, or press the help button on the CMake GUI.\x1b[0m\n'}
+[14.028967] (mybot37) StderrLine: {'line': b'gmake: *** [Makefile:226: cmake_check_build_system] Error 1\n'}
+[14.077252] (-) TimerEvent: {}
+[14.178685] (-) TimerEvent: {}
+[14.279935] (-) TimerEvent: {}
+[14.381603] (-) TimerEvent: {}
+[14.482980] (-) TimerEvent: {}
+[14.584282] (-) TimerEvent: {}
+[14.685626] (-) TimerEvent: {}
+[14.787063] (-) TimerEvent: {}
+[14.888331] (-) TimerEvent: {}
+[14.989649] (-) TimerEvent: {}
+[15.091092] (-) TimerEvent: {}
+[15.192414] (-) TimerEvent: {}
+[15.293847] (-) TimerEvent: {}
+[15.396518] (-) TimerEvent: {}
+[15.423986] (mybot37) CommandEnded: {'returncode': 2}
+[15.451051] (mybot37) JobEnded: {'identifier': 'mybot37', 'rc': 2}
+[15.455996] (object_detection) JobEnded: {'identifier': 'object_detection', 'rc': 'SIGINT'}
+[15.496686] (-) TimerEvent: {}
+[15.597594] (-) TimerEvent: {}
+[15.698658] (-) TimerEvent: {}
+[15.799590] (-) TimerEvent: {}
+[15.901134] (-) TimerEvent: {}
+[15.917822] (mpu6050_imu) JobEnded: {'identifier': 'mpu6050_imu', 'rc': 'SIGINT'}
+[15.921305] (-) EventReactorShutdown: {}

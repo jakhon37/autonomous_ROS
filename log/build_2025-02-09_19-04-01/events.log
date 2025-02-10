@@ -1,0 +1,89 @@
+[0.000000] (-) TimerEvent: {}
+[0.000950] (-) JobUnselected: {'identifier': 'dual_motor'}
+[0.002163] (-) JobUnselected: {'identifier': 'motor_encoder'}
+[0.002812] (-) JobUnselected: {'identifier': 'mpu6050_imu'}
+[0.003348] (-) JobUnselected: {'identifier': 'my_robot_slam'}
+[0.003586] (-) JobUnselected: {'identifier': 'object_detection'}
+[0.003932] (slam_toolbox) JobQueued: {'identifier': 'slam_toolbox', 'dependencies': OrderedDict()}
+[0.004132] (slam_toolbox) JobStarted: {'identifier': 'slam_toolbox'}
+[0.054097] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'cmake'}
+[0.058048] (slam_toolbox) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/my_space/autonomous_ROS/src/slam_toolbox', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/my_space/autonomous_ROS/install/slam_toolbox'], 'cwd': '/home/ubuntu/my_space/autonomous_ROS/build/slam_toolbox', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.219.102 49558 22'), ('LC_TIME', 'C.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/my_space/autonomous_ROS/src'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-87abee26-779f-45c8-bc37-a6b8635e990a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'C.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/my_space/autonomous_ROS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ubuntu/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'C.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-44ba984aac.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ubuntu/my_space/autonomous_ROS/install/my_robot_slam:/home/ubuntu/my_space/autonomous_ROS/install/mybot37:/home/ubuntu/my_space/autonomous_ROS/install/object_detection:/home/ubuntu/my_space/autonomous_ROS/install/mpu6050_imu:/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder:/home/ubuntu/my_space/autonomous_ROS/install/motor_control:/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control:/home/ubuntu/my_space/autonomous_ROS/install/dual_motor:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'C.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'C.UTF-8'), ('LC_IDENTIFICATION', 'C.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/my_space/autonomous_ROS/build/slam_toolbox'), ('SSH_CONNECTION', '192.168.219.102 49558 192.168.219.100 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/my_space/autonomous_ROS/build/my_robot_slam:/home/ubuntu/my_space/autonomous_ROS/install/my_robot_slam/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/build/object_detection:/home/ubuntu/my_space/autonomous_ROS/build/mpu6050_imu:/home/ubuntu/my_space/autonomous_ROS/install/object_detection/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/install/mpu6050_imu/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/build/motor_encoder:/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/build/motor_control:/home/ubuntu/my_space/autonomous_ROS/install/motor_control/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control:/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/build/dual_motor:/home/ubuntu/my_space/autonomous_ROS/install/dual_motor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'C.UTF-8'), ('LC_PAPER', 'C.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/my_space/autonomous_ROS/install/mybot37:/home/ubuntu/my_space/autonomous_ROS/install/my_robot_slam:/home/ubuntu/my_space/autonomous_ROS/install/object_detection:/home/ubuntu/my_space/autonomous_ROS/install/mpu6050_imu:/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder:/home/ubuntu/my_space/autonomous_ROS/install/motor_control:/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control:/home/ubuntu/my_space/autonomous_ROS/install/dual_motor:/opt/ros/humble')]), 'shell': False}
+[0.098945] (-) TimerEvent: {}
+[0.124773] (slam_toolbox) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199089] (-) TimerEvent: {}
+[0.299860] (-) TimerEvent: {}
+[0.400607] (-) TimerEvent: {}
+[0.501472] (-) TimerEvent: {}
+[0.602253] (-) TimerEvent: {}
+[0.702995] (-) TimerEvent: {}
+[0.803809] (-) TimerEvent: {}
+[0.889522] (slam_toolbox) StdoutLine: {'line': b'-- Found message_filters: 4.3.5 (/opt/ros/humble/share/message_filters/cmake)\n'}
+[0.904002] (-) TimerEvent: {}
+[1.004745] (-) TimerEvent: {}
+[1.072174] (slam_toolbox) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.085363] (slam_toolbox) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.104913] (-) TimerEvent: {}
+[1.113863] (slam_toolbox) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.161594] (slam_toolbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.205122] (-) TimerEvent: {}
+[1.221638] (slam_toolbox) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.305261] (-) TimerEvent: {}
+[1.377305] (slam_toolbox) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.385269] (slam_toolbox) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.405446] (-) TimerEvent: {}
+[1.506285] (-) TimerEvent: {}
+[1.607045] (-) TimerEvent: {}
+[1.707918] (-) TimerEvent: {}
+[1.808647] (-) TimerEvent: {}
+[1.909444] (-) TimerEvent: {}
+[2.010188] (-) TimerEvent: {}
+[2.110954] (-) TimerEvent: {}
+[2.161806] (slam_toolbox) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.211139] (-) TimerEvent: {}
+[2.312022] (-) TimerEvent: {}
+[2.389047] (slam_toolbox) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[2.412199] (-) TimerEvent: {}
+[2.513032] (-) TimerEvent: {}
+[2.521234] (slam_toolbox) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.596845] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2: 0.25.11 (/opt/ros/humble/share/tf2/cmake)\n'}
+[2.613242] (-) TimerEvent: {}
+[2.614442] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.11 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.713424] (-) TimerEvent: {}
+[2.814230] (-) TimerEvent: {}
+[2.914987] (-) TimerEvent: {}
+[2.964296] (slam_toolbox) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[3.015351] (-) TimerEvent: {}
+[3.050630] (slam_toolbox) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[3.115441] (-) TimerEvent: {}
+[3.192388] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.11 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[3.208582] (slam_toolbox) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[3.214191] (slam_toolbox) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[3.215552] (-) TimerEvent: {}
+[3.220297] (slam_toolbox) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.25.11 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)\n'}
+[3.238365] (slam_toolbox) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[3.280035] (slam_toolbox) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.315752] (-) TimerEvent: {}
+[3.416537] (-) TimerEvent: {}
+[3.443880] (slam_toolbox) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:28 (find_package):\n'}
+[3.445669] (slam_toolbox) StderrLine: {'line': b'  By not providing "Findrviz_common.cmake" in CMAKE_MODULE_PATH this project\n'}
+[3.446208] (slam_toolbox) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[3.446730] (slam_toolbox) StderrLine: {'line': b'  "rviz_common", but CMake did not find one.\n'}
+[3.447186] (slam_toolbox) StderrLine: {'line': b'\n'}
+[3.447731] (slam_toolbox) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.448444] (slam_toolbox) StdoutLine: {'line': b'See also "/home/ubuntu/my_space/autonomous_ROS/build/slam_toolbox/CMakeFiles/CMakeOutput.log".\n'}
+[3.449324] (slam_toolbox) StderrLine: {'line': b'  Could not find a package configuration file provided by "rviz_common" with\n'}
+[3.451187] (slam_toolbox) StderrLine: {'line': b'  any of the following names:\n'}
+[3.451892] (slam_toolbox) StderrLine: {'line': b'\n'}
+[3.452609] (slam_toolbox) StderrLine: {'line': b'    rviz_commonConfig.cmake\n'}
+[3.454349] (slam_toolbox) StderrLine: {'line': b'    rviz_common-config.cmake\n'}
+[3.459768] (slam_toolbox) StderrLine: {'line': b'\n'}
+[3.460643] (slam_toolbox) StderrLine: {'line': b'  Add the installation prefix of "rviz_common" to CMAKE_PREFIX_PATH or set\n'}
+[3.461568] (slam_toolbox) StderrLine: {'line': b'  "rviz_common_DIR" to a directory containing one of the above files.  If\n'}
+[3.462185] (slam_toolbox) StderrLine: {'line': b'  "rviz_common" provides a separate development package or SDK, be sure it\n'}
+[3.462765] (slam_toolbox) StderrLine: {'line': b'  has been installed.\n'}
+[3.463340] (slam_toolbox) StderrLine: {'line': b'\n'}
+[3.464248] (slam_toolbox) StderrLine: {'line': b'\x1b[0m\n'}
+[3.481917] (slam_toolbox) CommandEnded: {'returncode': 1}
+[3.516735] (-) TimerEvent: {}
+[3.578097] (slam_toolbox) JobEnded: {'identifier': 'slam_toolbox', 'rc': 1}
+[3.590060] (-) EventReactorShutdown: {}

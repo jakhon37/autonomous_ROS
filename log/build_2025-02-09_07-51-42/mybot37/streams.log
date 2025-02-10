@@ -1,0 +1,53 @@
+[1.502s] Invoking command in '/home/ubuntu/my_space/autonomous_ROS/build/mybot37': CMAKE_PREFIX_PATH=/home/ubuntu/my_space/autonomous_ROS/install/object_detection:/home/ubuntu/my_space/autonomous_ROS/install/mpu6050_imu:/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder:/home/ubuntu/my_space/autonomous_ROS/install/motor_control:/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control:/home/ubuntu/my_space/autonomous_ROS/install/dual_motor:/opt/ros/humble /usr/bin/cmake /home/ubuntu/my_space/autonomous_ROS/src/arch/mybot37 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/my_space/autonomous_ROS/install/mybot37
+[2.622s] -- The C compiler identification is GNU 11.4.0
+[3.864s] -- The CXX compiler identification is GNU 11.4.0
+[3.924s] -- Detecting C compiler ABI info
+[4.374s] -- Detecting C compiler ABI info - done
+[4.412s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.416s] -- Detecting C compile features
+[4.421s] -- Detecting C compile features - done
+[4.444s] -- Detecting CXX compiler ABI info
+[4.985s] -- Detecting CXX compiler ABI info - done
+[5.024s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.026s] -- Detecting CXX compile features
+[5.030s] -- Detecting CXX compile features - done
+[5.100s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.286s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.796s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.316s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.953s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.960s] -- Added test 'lint_cmake' to check CMake code style
+[7.966s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.983s] -- Added test 'xmllint' to check XML markup files
+[7.999s] -- Configuring done
+[8.025s] -- Generating done
+[8.036s] -- Build files have been written to: /home/ubuntu/my_space/autonomous_ROS/build/mybot37
+[8.054s] Invoked command in '/home/ubuntu/my_space/autonomous_ROS/build/mybot37' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/my_space/autonomous_ROS/install/object_detection:/home/ubuntu/my_space/autonomous_ROS/install/mpu6050_imu:/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder:/home/ubuntu/my_space/autonomous_ROS/install/motor_control:/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control:/home/ubuntu/my_space/autonomous_ROS/install/dual_motor:/opt/ros/humble /usr/bin/cmake /home/ubuntu/my_space/autonomous_ROS/src/arch/mybot37 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/my_space/autonomous_ROS/install/mybot37
+[8.066s] Invoking command in '/home/ubuntu/my_space/autonomous_ROS/build/mybot37': CMAKE_PREFIX_PATH=/home/ubuntu/my_space/autonomous_ROS/install/object_detection:/home/ubuntu/my_space/autonomous_ROS/install/mpu6050_imu:/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder:/home/ubuntu/my_space/autonomous_ROS/install/motor_control:/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control:/home/ubuntu/my_space/autonomous_ROS/install/dual_motor:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/my_space/autonomous_ROS/build/mybot37 -- -j4 -l4
+[8.231s] Invoked command in '/home/ubuntu/my_space/autonomous_ROS/build/mybot37' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/my_space/autonomous_ROS/install/object_detection:/home/ubuntu/my_space/autonomous_ROS/install/mpu6050_imu:/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder:/home/ubuntu/my_space/autonomous_ROS/install/motor_control:/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control:/home/ubuntu/my_space/autonomous_ROS/install/dual_motor:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/my_space/autonomous_ROS/build/mybot37 -- -j4 -l4
+[8.274s] Invoking command in '/home/ubuntu/my_space/autonomous_ROS/build/mybot37': CMAKE_PREFIX_PATH=/home/ubuntu/my_space/autonomous_ROS/install/object_detection:/home/ubuntu/my_space/autonomous_ROS/install/mpu6050_imu:/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder:/home/ubuntu/my_space/autonomous_ROS/install/motor_control:/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control:/home/ubuntu/my_space/autonomous_ROS/install/dual_motor:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/my_space/autonomous_ROS/build/mybot37
+[8.304s] -- Install configuration: ""
+[8.307s] -- Execute custom install script
+[8.310s] -- Symlinking: /home/ubuntu/my_space/autonomous_ROS/install/mybot37/share/mybot37/config/config.yaml
+[8.346s] -- Symlinking: /home/ubuntu/my_space/autonomous_ROS/install/mybot37/share/mybot37/config/mybot37_view.rviz
+[8.399s] -- Symlinking: /home/ubuntu/my_space/autonomous_ROS/install/mybot37/share/mybot37/description/inertial_macros.xacro
+[8.438s] -- Symlinking: /home/ubuntu/my_space/autonomous_ROS/install/mybot37/share/mybot37/description/robot.urdf.xacro
+[8.478s] -- Symlinking: /home/ubuntu/my_space/autonomous_ROS/install/mybot37/share/mybot37/description/robot_core.xacro
+[8.531s] -- Symlinking: /home/ubuntu/my_space/autonomous_ROS/install/mybot37/share/mybot37/launch/rsp.launch.py
+[8.581s] -- Symlinking: /home/ubuntu/my_space/autonomous_ROS/install/mybot37/share/mybot37/worlds/botworld.world
+[8.628s] -- Symlinking: /home/ubuntu/my_space/autonomous_ROS/install/mybot37/share/ament_index/resource_index/package_run_dependencies/mybot37
+[8.667s] -- Symlinking: /home/ubuntu/my_space/autonomous_ROS/install/mybot37/share/ament_index/resource_index/parent_prefix_path/mybot37
+[8.701s] -- Symlinking: /home/ubuntu/my_space/autonomous_ROS/install/mybot37/share/mybot37/environment/ament_prefix_path.sh
+[8.738s] -- Symlinking: /home/ubuntu/my_space/autonomous_ROS/install/mybot37/share/mybot37/environment/ament_prefix_path.dsv
+[8.773s] -- Symlinking: /home/ubuntu/my_space/autonomous_ROS/install/mybot37/share/mybot37/environment/path.sh
+[8.810s] -- Symlinking: /home/ubuntu/my_space/autonomous_ROS/install/mybot37/share/mybot37/environment/path.dsv
+[8.844s] -- Symlinking: /home/ubuntu/my_space/autonomous_ROS/install/mybot37/share/mybot37/local_setup.bash
+[8.880s] -- Symlinking: /home/ubuntu/my_space/autonomous_ROS/install/mybot37/share/mybot37/local_setup.sh
+[8.915s] -- Symlinking: /home/ubuntu/my_space/autonomous_ROS/install/mybot37/share/mybot37/local_setup.zsh
+[8.949s] -- Symlinking: /home/ubuntu/my_space/autonomous_ROS/install/mybot37/share/mybot37/local_setup.dsv
+[8.985s] -- Symlinking: /home/ubuntu/my_space/autonomous_ROS/install/mybot37/share/mybot37/package.dsv
+[9.021s] -- Symlinking: /home/ubuntu/my_space/autonomous_ROS/install/mybot37/share/ament_index/resource_index/packages/mybot37
+[9.056s] -- Symlinking: /home/ubuntu/my_space/autonomous_ROS/install/mybot37/share/mybot37/cmake/mybot37Config.cmake
+[9.092s] -- Symlinking: /home/ubuntu/my_space/autonomous_ROS/install/mybot37/share/mybot37/cmake/mybot37Config-version.cmake
+[9.127s] -- Symlinking: /home/ubuntu/my_space/autonomous_ROS/install/mybot37/share/mybot37/package.xml
+[9.171s] Invoked command in '/home/ubuntu/my_space/autonomous_ROS/build/mybot37' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/my_space/autonomous_ROS/install/object_detection:/home/ubuntu/my_space/autonomous_ROS/install/mpu6050_imu:/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder:/home/ubuntu/my_space/autonomous_ROS/install/motor_control:/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control:/home/ubuntu/my_space/autonomous_ROS/install/dual_motor:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/my_space/autonomous_ROS/build/mybot37

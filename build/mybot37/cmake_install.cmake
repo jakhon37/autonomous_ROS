@@ -1,8 +1,8 @@
-# Install script for directory: /home/jakhon37/myspace/robotics/autonomous_ROS/src/mybot37
+# Install script for directory: /home/ubuntu/my_space/autonomous_ROS/src/arch/mybot37
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jakhon37/myspace/robotics/autonomous_ROS/install/mybot37")
+  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/my_space/autonomous_ROS/install/mybot37")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -42,8 +42,8 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/jakhon37/myspace/robotics/autonomous_ROS/build/mybot37/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  include("/home/ubuntu/my_space/autonomous_ROS/build/mybot37/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jakhon37/myspace/robotics/autonomous_ROS/build/mybot37/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ubuntu/my_space/autonomous_ROS/build/mybot37/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

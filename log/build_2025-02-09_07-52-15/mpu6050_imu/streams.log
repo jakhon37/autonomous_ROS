@@ -1,0 +1,17 @@
+[8.402s] Invoking command in '/home/ubuntu/my_space/autonomous_ROS/build/mpu6050_imu': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/mpu6050_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/mpu6050_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/my_space/autonomous_ROS/build/mpu6050_imu/build --no-deps symlink_data
+[10.393s] running develop
+[11.764s] running egg_info
+[11.765s] writing mpu6050_imu.egg-info/PKG-INFO
+[11.769s] writing dependency_links to mpu6050_imu.egg-info/dependency_links.txt
+[11.773s] writing entry points to mpu6050_imu.egg-info/entry_points.txt
+[11.777s] writing requirements to mpu6050_imu.egg-info/requires.txt
+[11.778s] writing top-level names to mpu6050_imu.egg-info/top_level.txt
+[11.788s] reading manifest file 'mpu6050_imu.egg-info/SOURCES.txt'
+[11.795s] writing manifest file 'mpu6050_imu.egg-info/SOURCES.txt'
+[11.805s] running build_ext
+[11.806s] Creating /home/ubuntu/my_space/autonomous_ROS/install/mpu6050_imu/lib/python3.10/site-packages/mpu6050-imu.egg-link (link to .)
+[11.813s] Installing mpu6050_node script to /home/ubuntu/my_space/autonomous_ROS/install/mpu6050_imu/lib/mpu6050_imu
+[11.816s] 
+[11.816s] Installed /home/ubuntu/my_space/autonomous_ROS/build/mpu6050_imu
+[11.818s] running symlink_data
+[11.976s] Invoked command in '/home/ubuntu/my_space/autonomous_ROS/build/mpu6050_imu' returned '0': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/mpu6050_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/mpu6050_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/my_space/autonomous_ROS/build/mpu6050_imu/build --no-deps symlink_data

@@ -1,0 +1,19 @@
+[4.244s] Invoking command in '/home/ubuntu/my_space/autonomous_ROS/build/object_detection': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/my_space/autonomous_ROS/build/object_detection/build --no-deps symlink_data --force
+[6.050s] running develop
+[7.024s] running egg_info
+[7.027s] writing object_detection.egg-info/PKG-INFO
+[7.029s] writing dependency_links to object_detection.egg-info/dependency_links.txt
+[7.030s] writing entry points to object_detection.egg-info/entry_points.txt
+[7.030s] writing requirements to object_detection.egg-info/requires.txt
+[7.031s] writing top-level names to object_detection.egg-info/top_level.txt
+[7.039s] reading manifest file 'object_detection.egg-info/SOURCES.txt'
+[7.044s] writing manifest file 'object_detection.egg-info/SOURCES.txt'
+[7.053s] running build_ext
+[7.054s] Creating /home/ubuntu/my_space/autonomous_ROS/install/object_detection/lib/python3.10/site-packages/object-detection.egg-link (link to .)
+[7.059s] Installing camera_go script to /home/ubuntu/my_space/autonomous_ROS/install/object_detection/lib/object_detection
+[7.061s] 
+[7.062s] Installed /home/ubuntu/my_space/autonomous_ROS/build/object_detection
+[7.063s] running symlink_data
+[7.065s] symbolically linking /home/ubuntu/my_space/autonomous_ROS/build/object_detection/resource/object_detection -> /home/ubuntu/my_space/autonomous_ROS/install/object_detection/share/ament_index/resource_index/packages
+[7.067s] symbolically linking /home/ubuntu/my_space/autonomous_ROS/build/object_detection/package.xml -> /home/ubuntu/my_space/autonomous_ROS/install/object_detection/share/object_detection
+[7.222s] Invoked command in '/home/ubuntu/my_space/autonomous_ROS/build/object_detection' returned '0': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/my_space/autonomous_ROS/build/object_detection/build --no-deps symlink_data --force

@@ -1,0 +1,36 @@
+[0.057s] Invoking command in '/home/ubuntu/my_space/autonomous_ROS/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/my_space/autonomous_ROS/install/my_robot_slam:/home/ubuntu/my_space/autonomous_ROS/install/object_detection:/home/ubuntu/my_space/autonomous_ROS/install/mpu6050_imu:/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder:/home/ubuntu/my_space/autonomous_ROS/install/motor_control:/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control:/home/ubuntu/my_space/autonomous_ROS/install/dual_motor:/opt/ros/humble /usr/bin/cmake /home/ubuntu/my_space/autonomous_ROS/src/slam_toolbox -DBUILD_RVIZ_PLUGIN=OFF -DCMAKE_INSTALL_PREFIX=/home/ubuntu/my_space/autonomous_ROS/install/slam_toolbox
+[0.120s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.901s] -- Found message_filters: 4.3.5 (/opt/ros/humble/share/message_filters/cmake)
+[1.084s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.097s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.125s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.172s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.233s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.387s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.395s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.179s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.405s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.536s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.612s] -- Found tf2: 0.25.11 (/opt/ros/humble/share/tf2/cmake)
+[2.630s] -- Found tf2_ros: 0.25.11 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.974s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[3.060s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[3.202s] -- Found tf2_geometry_msgs: 0.25.11 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[3.217s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.223s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.229s] -- Found tf2_sensor_msgs: 0.25.11 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)
+[3.246s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[3.288s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.327s] -- RViz plugin disabled: skipping find_package for rviz and Qt5.
+[4.238s] [31mCMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
+[4.239s]   Could NOT find Boost (missing: Boost_INCLUDE_DIR system serialization
+[4.239s]   filesystem thread)
+[4.239s] Call Stack (most recent call first):
+[4.240s]   /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
+[4.240s]   /usr/share/cmake-3.22/Modules/FindBoost.cmake:2360 (find_package_handle_standard_args)
+[4.241s]   lib/karto_sdk/CMakeLists.txt:14 (find_package)
+[4.241s] 
+[4.242s] [0m
+[4.243s] -- Configuring incomplete, errors occurred!
+[4.244s] See also "/home/ubuntu/my_space/autonomous_ROS/build/slam_toolbox/CMakeFiles/CMakeOutput.log".
+[4.282s] Invoked command in '/home/ubuntu/my_space/autonomous_ROS/build/slam_toolbox' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/my_space/autonomous_ROS/install/my_robot_slam:/home/ubuntu/my_space/autonomous_ROS/install/object_detection:/home/ubuntu/my_space/autonomous_ROS/install/mpu6050_imu:/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder:/home/ubuntu/my_space/autonomous_ROS/install/motor_control:/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control:/home/ubuntu/my_space/autonomous_ROS/install/dual_motor:/opt/ros/humble /usr/bin/cmake /home/ubuntu/my_space/autonomous_ROS/src/slam_toolbox -DBUILD_RVIZ_PLUGIN=OFF -DCMAKE_INSTALL_PREFIX=/home/ubuntu/my_space/autonomous_ROS/install/slam_toolbox

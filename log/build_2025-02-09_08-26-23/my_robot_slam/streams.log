@@ -1,0 +1,23 @@
+[8.407s] Invoking command in '/home/ubuntu/my_space/autonomous_ROS/build/my_robot_slam': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/my_robot_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/my_robot_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/my_space/autonomous_ROS/build/my_robot_slam/build --no-deps symlink_data
+[10.277s] running develop
+[11.506s] running egg_info
+[11.507s] creating my_robot_slam.egg-info
+[11.508s] writing my_robot_slam.egg-info/PKG-INFO
+[11.509s] writing dependency_links to my_robot_slam.egg-info/dependency_links.txt
+[11.510s] writing entry points to my_robot_slam.egg-info/entry_points.txt
+[11.511s] writing requirements to my_robot_slam.egg-info/requires.txt
+[11.512s] writing top-level names to my_robot_slam.egg-info/top_level.txt
+[11.512s] writing manifest file 'my_robot_slam.egg-info/SOURCES.txt'
+[11.523s] reading manifest file 'my_robot_slam.egg-info/SOURCES.txt'
+[11.528s] writing manifest file 'my_robot_slam.egg-info/SOURCES.txt'
+[11.541s] running build_ext
+[11.542s] Creating /home/ubuntu/my_space/autonomous_ROS/install/my_robot_slam/lib/python3.10/site-packages/my-robot-slam.egg-link (link to .)
+[11.548s] 
+[11.549s] Installed /home/ubuntu/my_space/autonomous_ROS/build/my_robot_slam
+[11.550s] running symlink_data
+[11.550s] creating /home/ubuntu/my_space/autonomous_ROS/install/my_robot_slam/share/ament_index
+[11.552s] creating /home/ubuntu/my_space/autonomous_ROS/install/my_robot_slam/share/ament_index/resource_index
+[11.553s] creating /home/ubuntu/my_space/autonomous_ROS/install/my_robot_slam/share/ament_index/resource_index/packages
+[11.557s] symbolically linking /home/ubuntu/my_space/autonomous_ROS/build/my_robot_slam/resource/my_robot_slam -> /home/ubuntu/my_space/autonomous_ROS/install/my_robot_slam/share/ament_index/resource_index/packages
+[11.559s] symbolically linking /home/ubuntu/my_space/autonomous_ROS/build/my_robot_slam/package.xml -> /home/ubuntu/my_space/autonomous_ROS/install/my_robot_slam/share/my_robot_slam
+[11.929s] Invoked command in '/home/ubuntu/my_space/autonomous_ROS/build/my_robot_slam' returned '0': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/my_robot_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/my_robot_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/my_space/autonomous_ROS/build/my_robot_slam/build --no-deps symlink_data

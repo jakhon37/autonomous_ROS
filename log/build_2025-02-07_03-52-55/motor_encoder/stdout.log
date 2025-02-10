@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/motor_encoder/motor_encoder.egg-info
+writing ../../build/motor_encoder/motor_encoder.egg-info/PKG-INFO
+writing dependency_links to ../../build/motor_encoder/motor_encoder.egg-info/dependency_links.txt
+writing entry points to ../../build/motor_encoder/motor_encoder.egg-info/entry_points.txt
+writing requirements to ../../build/motor_encoder/motor_encoder.egg-info/requires.txt
+writing top-level names to ../../build/motor_encoder/motor_encoder.egg-info/top_level.txt
+writing manifest file '../../build/motor_encoder/motor_encoder.egg-info/SOURCES.txt'
+reading manifest file '../../build/motor_encoder/motor_encoder.egg-info/SOURCES.txt'
+writing manifest file '../../build/motor_encoder/motor_encoder.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/my_space/autonomous_ROS/build/motor_encoder/build
+creating /home/ubuntu/my_space/autonomous_ROS/build/motor_encoder/build/lib
+creating /home/ubuntu/my_space/autonomous_ROS/build/motor_encoder/build/lib/motor_encoder
+copying motor_encoder/__init__.py -> /home/ubuntu/my_space/autonomous_ROS/build/motor_encoder/build/lib/motor_encoder
+copying motor_encoder/encoder_node.py -> /home/ubuntu/my_space/autonomous_ROS/build/motor_encoder/build/lib/motor_encoder
+running install
+running install_lib
+creating /home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/lib/python3.10/site-packages/motor_encoder
+copying /home/ubuntu/my_space/autonomous_ROS/build/motor_encoder/build/lib/motor_encoder/__init__.py -> /home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/lib/python3.10/site-packages/motor_encoder
+copying /home/ubuntu/my_space/autonomous_ROS/build/motor_encoder/build/lib/motor_encoder/encoder_node.py -> /home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/lib/python3.10/site-packages/motor_encoder
+byte-compiling /home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/lib/python3.10/site-packages/motor_encoder/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/lib/python3.10/site-packages/motor_encoder/encoder_node.py to encoder_node.cpython-310.pyc
+running install_data
+creating /home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/share/ament_index
+creating /home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/share/ament_index/resource_index
+creating /home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/share/ament_index/resource_index/packages
+copying resource/motor_encoder -> /home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/share/motor_encoder
+running install_egg_info
+Copying ../../build/motor_encoder/motor_encoder.egg-info to /home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/lib/python3.10/site-packages/motor_encoder-0.0.0-py3.10.egg-info
+running install_scripts
+Installing encoder_node script to /home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/lib/motor_encoder
+writing list of installed files to '/home/ubuntu/my_space/autonomous_ROS/build/motor_encoder/install.log'

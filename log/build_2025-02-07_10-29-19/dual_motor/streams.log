@@ -1,0 +1,37 @@
+[3.367s] Invoking command in '/home/ubuntu/my_space/autonomous_ROS/src/dual_motor': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/dual_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/dual_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dual_motor build --build-base /home/ubuntu/my_space/autonomous_ROS/build/dual_motor/build install --record /home/ubuntu/my_space/autonomous_ROS/build/dual_motor/install.log --single-version-externally-managed install_data
+[4.649s] running egg_info
+[4.653s] creating ../../build/dual_motor/dual_motor.egg-info
+[4.654s] writing ../../build/dual_motor/dual_motor.egg-info/PKG-INFO
+[4.655s] writing dependency_links to ../../build/dual_motor/dual_motor.egg-info/dependency_links.txt
+[4.657s] writing entry points to ../../build/dual_motor/dual_motor.egg-info/entry_points.txt
+[4.659s] writing requirements to ../../build/dual_motor/dual_motor.egg-info/requires.txt
+[4.660s] writing top-level names to ../../build/dual_motor/dual_motor.egg-info/top_level.txt
+[4.661s] writing manifest file '../../build/dual_motor/dual_motor.egg-info/SOURCES.txt'
+[4.671s] reading manifest file '../../build/dual_motor/dual_motor.egg-info/SOURCES.txt'
+[4.687s] writing manifest file '../../build/dual_motor/dual_motor.egg-info/SOURCES.txt'
+[4.688s] running build
+[4.689s] running build_py
+[4.692s] creating /home/ubuntu/my_space/autonomous_ROS/build/dual_motor/build
+[4.694s] creating /home/ubuntu/my_space/autonomous_ROS/build/dual_motor/build/lib
+[4.695s] creating /home/ubuntu/my_space/autonomous_ROS/build/dual_motor/build/lib/dual_motor
+[4.701s] copying dual_motor/dual_motor_controller.py -> /home/ubuntu/my_space/autonomous_ROS/build/dual_motor/build/lib/dual_motor
+[4.702s] copying dual_motor/__init__.py -> /home/ubuntu/my_space/autonomous_ROS/build/dual_motor/build/lib/dual_motor
+[4.702s] running install
+[4.704s] running install_lib
+[4.711s] creating /home/ubuntu/my_space/autonomous_ROS/install/dual_motor/lib/python3.10/site-packages/dual_motor
+[4.712s] copying /home/ubuntu/my_space/autonomous_ROS/build/dual_motor/build/lib/dual_motor/dual_motor_controller.py -> /home/ubuntu/my_space/autonomous_ROS/install/dual_motor/lib/python3.10/site-packages/dual_motor
+[4.712s] copying /home/ubuntu/my_space/autonomous_ROS/build/dual_motor/build/lib/dual_motor/__init__.py -> /home/ubuntu/my_space/autonomous_ROS/install/dual_motor/lib/python3.10/site-packages/dual_motor
+[4.720s] byte-compiling /home/ubuntu/my_space/autonomous_ROS/install/dual_motor/lib/python3.10/site-packages/dual_motor/dual_motor_controller.py to dual_motor_controller.cpython-310.pyc
+[4.728s] byte-compiling /home/ubuntu/my_space/autonomous_ROS/install/dual_motor/lib/python3.10/site-packages/dual_motor/__init__.py to __init__.cpython-310.pyc
+[4.731s] running install_data
+[4.731s] creating /home/ubuntu/my_space/autonomous_ROS/install/dual_motor/share/ament_index
+[4.732s] creating /home/ubuntu/my_space/autonomous_ROS/install/dual_motor/share/ament_index/resource_index
+[4.733s] creating /home/ubuntu/my_space/autonomous_ROS/install/dual_motor/share/ament_index/resource_index/packages
+[4.755s] copying resource/dual_motor -> /home/ubuntu/my_space/autonomous_ROS/install/dual_motor/share/ament_index/resource_index/packages
+[4.756s] copying package.xml -> /home/ubuntu/my_space/autonomous_ROS/install/dual_motor/share/dual_motor
+[4.756s] running install_egg_info
+[4.758s] Copying ../../build/dual_motor/dual_motor.egg-info to /home/ubuntu/my_space/autonomous_ROS/install/dual_motor/lib/python3.10/site-packages/dual_motor-0.0.0-py3.10.egg-info
+[4.759s] running install_scripts
+[4.872s] Installing dual_motor_controller script to /home/ubuntu/my_space/autonomous_ROS/install/dual_motor/lib/dual_motor
+[4.874s] writing list of installed files to '/home/ubuntu/my_space/autonomous_ROS/build/dual_motor/install.log'
+[5.007s] Invoked command in '/home/ubuntu/my_space/autonomous_ROS/src/dual_motor' returned '0': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/dual_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/dual_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dual_motor build --build-base /home/ubuntu/my_space/autonomous_ROS/build/dual_motor/build install --record /home/ubuntu/my_space/autonomous_ROS/build/dual_motor/install.log --single-version-externally-managed install_data

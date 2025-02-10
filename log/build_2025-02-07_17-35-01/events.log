@@ -1,0 +1,9 @@
+[0.000000] (-) TimerEvent: {}
+[0.001463] (-) JobUnselected: {'identifier': 'dual_motor'}
+[0.001706] (-) JobUnselected: {'identifier': 'enc_motor_control'}
+[0.001866] (-) JobUnselected: {'identifier': 'motor_control'}
+[0.002078] (-) JobUnselected: {'identifier': 'motor_encoder'}
+[0.003359] (-) JobUnselected: {'identifier': 'mpu6050_imu'}
+[0.003566] (-) JobUnselected: {'identifier': 'mybot37'}
+[0.003688] (-) JobUnselected: {'identifier': 'object_detection'}
+[0.003794] (-) EventReactorShutdown: {}

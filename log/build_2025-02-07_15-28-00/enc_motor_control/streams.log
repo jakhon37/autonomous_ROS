@@ -1,0 +1,19 @@
+[9.447s] Invoking command in '/home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control/build --no-deps symlink_data --force
+[11.617s] running develop
+[13.274s] running egg_info
+[13.274s] writing enc_motor_control.egg-info/PKG-INFO
+[13.276s] writing dependency_links to enc_motor_control.egg-info/dependency_links.txt
+[13.278s] writing entry points to enc_motor_control.egg-info/entry_points.txt
+[13.279s] writing requirements to enc_motor_control.egg-info/requires.txt
+[13.281s] writing top-level names to enc_motor_control.egg-info/top_level.txt
+[13.295s] reading manifest file 'enc_motor_control.egg-info/SOURCES.txt'
+[13.306s] writing manifest file 'enc_motor_control.egg-info/SOURCES.txt'
+[13.313s] running build_ext
+[13.315s] Creating /home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/lib/python3.10/site-packages/enc-motor-control.egg-link (link to .)
+[13.322s] Installing enc_motor_controller script to /home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/lib/enc_motor_control
+[13.324s] 
+[13.326s] Installed /home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control
+[13.326s] running symlink_data
+[13.327s] symbolically linking /home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control/resource/enc_motor_control -> /home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/share/ament_index/resource_index/packages
+[13.329s] symbolically linking /home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control/package.xml -> /home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/share/enc_motor_control
+[15.176s] Invoked command in '/home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control' returned '0': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control/build --no-deps symlink_data --force

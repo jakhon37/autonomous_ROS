@@ -1,0 +1,37 @@
+[3.029s] Invoking command in '/home/ubuntu/my_space/autonomous_ROS/src/enc_motor_control': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/enc_motor_control build --build-base /home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control/build install --record /home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control/install.log --single-version-externally-managed install_data
+[4.194s] running egg_info
+[4.196s] creating ../../build/enc_motor_control/enc_motor_control.egg-info
+[4.197s] writing ../../build/enc_motor_control/enc_motor_control.egg-info/PKG-INFO
+[4.198s] writing dependency_links to ../../build/enc_motor_control/enc_motor_control.egg-info/dependency_links.txt
+[4.199s] writing entry points to ../../build/enc_motor_control/enc_motor_control.egg-info/entry_points.txt
+[4.200s] writing requirements to ../../build/enc_motor_control/enc_motor_control.egg-info/requires.txt
+[4.200s] writing top-level names to ../../build/enc_motor_control/enc_motor_control.egg-info/top_level.txt
+[4.201s] writing manifest file '../../build/enc_motor_control/enc_motor_control.egg-info/SOURCES.txt'
+[4.209s] reading manifest file '../../build/enc_motor_control/enc_motor_control.egg-info/SOURCES.txt'
+[4.213s] writing manifest file '../../build/enc_motor_control/enc_motor_control.egg-info/SOURCES.txt'
+[4.214s] running build
+[4.214s] running build_py
+[4.215s] creating /home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control/build
+[4.216s] creating /home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control/build/lib
+[4.216s] creating /home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control/build/lib/enc_motor_control
+[4.217s] copying enc_motor_control/__init__.py -> /home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control/build/lib/enc_motor_control
+[4.217s] copying enc_motor_control/enc_motor_controller.py -> /home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control/build/lib/enc_motor_control
+[4.218s] running install
+[4.219s] running install_lib
+[4.222s] creating /home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/lib/python3.10/site-packages/enc_motor_control
+[4.223s] copying /home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control/build/lib/enc_motor_control/__init__.py -> /home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/lib/python3.10/site-packages/enc_motor_control
+[4.224s] copying /home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control/build/lib/enc_motor_control/enc_motor_controller.py -> /home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/lib/python3.10/site-packages/enc_motor_control
+[4.227s] byte-compiling /home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/lib/python3.10/site-packages/enc_motor_control/__init__.py to __init__.cpython-310.pyc
+[4.229s] byte-compiling /home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/lib/python3.10/site-packages/enc_motor_control/enc_motor_controller.py to enc_motor_controller.cpython-310.pyc
+[4.233s] running install_data
+[4.234s] creating /home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/share/ament_index
+[4.235s] creating /home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/share/ament_index/resource_index
+[4.236s] creating /home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/share/ament_index/resource_index/packages
+[4.236s] copying resource/enc_motor_control -> /home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/share/ament_index/resource_index/packages
+[4.237s] copying package.xml -> /home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/share/enc_motor_control
+[4.239s] running install_egg_info
+[4.248s] Copying ../../build/enc_motor_control/enc_motor_control.egg-info to /home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/lib/python3.10/site-packages/enc_motor_control-0.0.0-py3.10.egg-info
+[4.257s] running install_scripts
+[4.347s] Installing enc_motor_controller script to /home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/lib/enc_motor_control
+[4.349s] writing list of installed files to '/home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control/install.log'
+[4.471s] Invoked command in '/home/ubuntu/my_space/autonomous_ROS/src/enc_motor_control' returned '0': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/enc_motor_control build --build-base /home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control/build install --record /home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control/install.log --single-version-externally-managed install_data

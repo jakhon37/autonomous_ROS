@@ -1,0 +1,428 @@
+[0.885s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.886s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffb3e24d30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb3f31c30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb3f31c30>>, mixin_verb=('build',))
+[2.380s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.381s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.381s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.383s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/my_space/autonomous_ROS'
+[2.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.384s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.385s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.385s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.385s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.386s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.386s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.387s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.387s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.476s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.476s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.477s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.477s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.477s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.478s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['ignore', 'ignore_ament_install']
+[2.479s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'ignore'
+[2.479s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'ignore_ament_install'
+[2.480s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['colcon_pkg']
+[2.480s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'colcon_pkg'
+[2.481s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['colcon_meta']
+[2.481s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'colcon_meta'
+[2.481s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['ros']
+[2.482s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'ros'
+[2.482s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['cmake', 'python']
+[2.483s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'cmake'
+[2.483s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'python'
+[2.484s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['python_setup_py']
+[2.484s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'python_setup_py'
+[2.485s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.486s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.486s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.487s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.488s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.488s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.489s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[2.489s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[2.490s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[2.491s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_pkg']
+[2.491s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_pkg'
+[2.491s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_meta']
+[2.491s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_meta'
+[2.492s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[2.492s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[2.493s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[2.493s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[2.494s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[2.494s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[2.494s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[2.495s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[2.496s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore'
+[2.497s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore_ament_install'
+[2.497s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_pkg']
+[2.497s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_pkg'
+[2.498s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_meta']
+[2.498s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_meta'
+[2.499s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ros']
+[2.499s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ros'
+[2.500s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['cmake', 'python']
+[2.500s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'cmake'
+[2.500s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python'
+[2.501s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['python_setup_py']
+[2.501s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python_setup_py'
+[2.502s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.503s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.503s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.504s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.505s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.505s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.506s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.506s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.507s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.507s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.507s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.509s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.509s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.510s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.510s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.510s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/dual_motor) by extensions ['ignore', 'ignore_ament_install']
+[2.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/dual_motor) by extension 'ignore'
+[2.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/dual_motor) by extension 'ignore_ament_install'
+[2.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/dual_motor) by extensions ['colcon_pkg']
+[2.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/dual_motor) by extension 'colcon_pkg'
+[2.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/dual_motor) by extensions ['colcon_meta']
+[2.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/dual_motor) by extension 'colcon_meta'
+[2.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/dual_motor) by extensions ['ros']
+[2.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/dual_motor) by extension 'ros'
+[2.535s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dual_motor' with type 'ros.ament_python' and name 'dual_motor'
+[2.536s] Level 1:colcon.colcon_core.package_identification:_identify(src/enc_motor_control) by extensions ['ignore', 'ignore_ament_install']
+[2.537s] Level 1:colcon.colcon_core.package_identification:_identify(src/enc_motor_control) by extension 'ignore'
+[2.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/enc_motor_control) by extension 'ignore_ament_install'
+[2.538s] Level 1:colcon.colcon_core.package_identification:_identify(src/enc_motor_control) by extensions ['colcon_pkg']
+[2.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/enc_motor_control) by extension 'colcon_pkg'
+[2.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/enc_motor_control) by extensions ['colcon_meta']
+[2.539s] Level 1:colcon.colcon_core.package_identification:_identify(src/enc_motor_control) by extension 'colcon_meta'
+[2.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/enc_motor_control) by extensions ['ros']
+[2.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/enc_motor_control) by extension 'ros'
+[2.545s] DEBUG:colcon.colcon_core.package_identification:Package 'src/enc_motor_control' with type 'ros.ament_python' and name 'enc_motor_control'
+[2.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extensions ['ignore', 'ignore_ament_install']
+[2.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extension 'ignore'
+[2.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extension 'ignore_ament_install'
+[2.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extensions ['colcon_pkg']
+[2.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extension 'colcon_pkg'
+[2.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extensions ['colcon_meta']
+[2.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extension 'colcon_meta'
+[2.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extensions ['ros']
+[2.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_control) by extension 'ros'
+[2.575s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor_control' with type 'ros.ament_python' and name 'motor_control'
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_encoder) by extensions ['ignore', 'ignore_ament_install']
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_encoder) by extension 'ignore'
+[2.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_encoder) by extension 'ignore_ament_install'
+[2.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_encoder) by extensions ['colcon_pkg']
+[2.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_encoder) by extension 'colcon_pkg'
+[2.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_encoder) by extensions ['colcon_meta']
+[2.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_encoder) by extension 'colcon_meta'
+[2.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_encoder) by extensions ['ros']
+[2.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_encoder) by extension 'ros'
+[2.586s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor_encoder' with type 'ros.ament_python' and name 'motor_encoder'
+[2.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6050_imu) by extensions ['ignore', 'ignore_ament_install']
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6050_imu) by extension 'ignore'
+[2.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6050_imu) by extension 'ignore_ament_install'
+[2.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6050_imu) by extensions ['colcon_pkg']
+[2.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6050_imu) by extension 'colcon_pkg'
+[2.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6050_imu) by extensions ['colcon_meta']
+[2.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6050_imu) by extension 'colcon_meta'
+[2.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6050_imu) by extensions ['ros']
+[2.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/mpu6050_imu) by extension 'ros'
+[2.595s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mpu6050_imu' with type 'ros.ament_python' and name 'mpu6050_imu'
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot37) by extensions ['ignore', 'ignore_ament_install']
+[2.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot37) by extension 'ignore'
+[2.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot37) by extension 'ignore_ament_install'
+[2.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot37) by extensions ['colcon_pkg']
+[2.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot37) by extension 'colcon_pkg'
+[2.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot37) by extensions ['colcon_meta']
+[2.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot37) by extension 'colcon_meta'
+[2.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot37) by extensions ['ros']
+[2.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/mybot37) by extension 'ros'
+[2.604s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mybot37' with type 'ros.ament_cmake' and name 'mybot37'
+[2.604s] Level 1:colcon.colcon_core.package_identification:_identify(test) by extensions ['ignore', 'ignore_ament_install']
+[2.605s] Level 1:colcon.colcon_core.package_identification:_identify(test) by extension 'ignore'
+[2.606s] Level 1:colcon.colcon_core.package_identification:_identify(test) by extension 'ignore_ament_install'
+[2.606s] Level 1:colcon.colcon_core.package_identification:_identify(test) by extensions ['colcon_pkg']
+[2.607s] Level 1:colcon.colcon_core.package_identification:_identify(test) by extension 'colcon_pkg'
+[2.607s] Level 1:colcon.colcon_core.package_identification:_identify(test) by extensions ['colcon_meta']
+[2.608s] Level 1:colcon.colcon_core.package_identification:_identify(test) by extension 'colcon_meta'
+[2.608s] Level 1:colcon.colcon_core.package_identification:_identify(test) by extensions ['ros']
+[2.608s] Level 1:colcon.colcon_core.package_identification:_identify(test) by extension 'ros'
+[2.609s] Level 1:colcon.colcon_core.package_identification:_identify(test) by extensions ['cmake', 'python']
+[2.609s] Level 1:colcon.colcon_core.package_identification:_identify(test) by extension 'cmake'
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(test) by extension 'python'
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(test) by extensions ['python_setup_py']
+[2.611s] Level 1:colcon.colcon_core.package_identification:_identify(test) by extension 'python_setup_py'
+[2.611s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.611s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.612s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.612s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.612s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.802s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.803s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.828s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/ubuntu/my_space/autonomous_ROS/install
+[2.838s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 187 installed packages in /opt/ros/humble
+[2.844s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.036s] Level 5:colcon.colcon_core.verb:set package 'dual_motor' build argument 'cmake_args' from command line to 'None'
+[3.036s] Level 5:colcon.colcon_core.verb:set package 'dual_motor' build argument 'cmake_target' from command line to 'None'
+[3.036s] Level 5:colcon.colcon_core.verb:set package 'dual_motor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.037s] Level 5:colcon.colcon_core.verb:set package 'dual_motor' build argument 'cmake_clean_cache' from command line to 'False'
+[3.037s] Level 5:colcon.colcon_core.verb:set package 'dual_motor' build argument 'cmake_clean_first' from command line to 'False'
+[3.037s] Level 5:colcon.colcon_core.verb:set package 'dual_motor' build argument 'cmake_force_configure' from command line to 'False'
+[3.037s] Level 5:colcon.colcon_core.verb:set package 'dual_motor' build argument 'ament_cmake_args' from command line to 'None'
+[3.038s] Level 5:colcon.colcon_core.verb:set package 'dual_motor' build argument 'catkin_cmake_args' from command line to 'None'
+[3.038s] Level 5:colcon.colcon_core.verb:set package 'dual_motor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.038s] DEBUG:colcon.colcon_core.verb:Building package 'dual_motor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/my_space/autonomous_ROS/build/dual_motor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/my_space/autonomous_ROS/install/dual_motor', 'merge_install': False, 'path': '/home/ubuntu/my_space/autonomous_ROS/src/dual_motor', 'symlink_install': True, 'test_result_base': None}
+[3.040s] Level 5:colcon.colcon_core.verb:set package 'enc_motor_control' build argument 'cmake_args' from command line to 'None'
+[3.041s] Level 5:colcon.colcon_core.verb:set package 'enc_motor_control' build argument 'cmake_target' from command line to 'None'
+[3.041s] Level 5:colcon.colcon_core.verb:set package 'enc_motor_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.041s] Level 5:colcon.colcon_core.verb:set package 'enc_motor_control' build argument 'cmake_clean_cache' from command line to 'False'
+[3.041s] Level 5:colcon.colcon_core.verb:set package 'enc_motor_control' build argument 'cmake_clean_first' from command line to 'False'
+[3.042s] Level 5:colcon.colcon_core.verb:set package 'enc_motor_control' build argument 'cmake_force_configure' from command line to 'False'
+[3.042s] Level 5:colcon.colcon_core.verb:set package 'enc_motor_control' build argument 'ament_cmake_args' from command line to 'None'
+[3.042s] Level 5:colcon.colcon_core.verb:set package 'enc_motor_control' build argument 'catkin_cmake_args' from command line to 'None'
+[3.042s] Level 5:colcon.colcon_core.verb:set package 'enc_motor_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.043s] DEBUG:colcon.colcon_core.verb:Building package 'enc_motor_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control', 'merge_install': False, 'path': '/home/ubuntu/my_space/autonomous_ROS/src/enc_motor_control', 'symlink_install': True, 'test_result_base': None}
+[3.045s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'cmake_args' from command line to 'None'
+[3.045s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'cmake_target' from command line to 'None'
+[3.045s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.046s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'cmake_clean_cache' from command line to 'False'
+[3.046s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'cmake_clean_first' from command line to 'False'
+[3.046s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'cmake_force_configure' from command line to 'False'
+[3.046s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'ament_cmake_args' from command line to 'None'
+[3.046s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'catkin_cmake_args' from command line to 'None'
+[3.047s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.047s] DEBUG:colcon.colcon_core.verb:Building package 'motor_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/my_space/autonomous_ROS/build/motor_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/my_space/autonomous_ROS/install/motor_control', 'merge_install': False, 'path': '/home/ubuntu/my_space/autonomous_ROS/src/motor_control', 'symlink_install': True, 'test_result_base': None}
+[3.049s] Level 5:colcon.colcon_core.verb:set package 'motor_encoder' build argument 'cmake_args' from command line to 'None'
+[3.049s] Level 5:colcon.colcon_core.verb:set package 'motor_encoder' build argument 'cmake_target' from command line to 'None'
+[3.049s] Level 5:colcon.colcon_core.verb:set package 'motor_encoder' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.050s] Level 5:colcon.colcon_core.verb:set package 'motor_encoder' build argument 'cmake_clean_cache' from command line to 'False'
+[3.050s] Level 5:colcon.colcon_core.verb:set package 'motor_encoder' build argument 'cmake_clean_first' from command line to 'False'
+[3.050s] Level 5:colcon.colcon_core.verb:set package 'motor_encoder' build argument 'cmake_force_configure' from command line to 'False'
+[3.050s] Level 5:colcon.colcon_core.verb:set package 'motor_encoder' build argument 'ament_cmake_args' from command line to 'None'
+[3.050s] Level 5:colcon.colcon_core.verb:set package 'motor_encoder' build argument 'catkin_cmake_args' from command line to 'None'
+[3.051s] Level 5:colcon.colcon_core.verb:set package 'motor_encoder' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.051s] DEBUG:colcon.colcon_core.verb:Building package 'motor_encoder' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/my_space/autonomous_ROS/build/motor_encoder', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder', 'merge_install': False, 'path': '/home/ubuntu/my_space/autonomous_ROS/src/motor_encoder', 'symlink_install': True, 'test_result_base': None}
+[3.053s] Level 5:colcon.colcon_core.verb:set package 'mpu6050_imu' build argument 'cmake_args' from command line to 'None'
+[3.053s] Level 5:colcon.colcon_core.verb:set package 'mpu6050_imu' build argument 'cmake_target' from command line to 'None'
+[3.053s] Level 5:colcon.colcon_core.verb:set package 'mpu6050_imu' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.054s] Level 5:colcon.colcon_core.verb:set package 'mpu6050_imu' build argument 'cmake_clean_cache' from command line to 'False'
+[3.054s] Level 5:colcon.colcon_core.verb:set package 'mpu6050_imu' build argument 'cmake_clean_first' from command line to 'False'
+[3.054s] Level 5:colcon.colcon_core.verb:set package 'mpu6050_imu' build argument 'cmake_force_configure' from command line to 'False'
+[3.054s] Level 5:colcon.colcon_core.verb:set package 'mpu6050_imu' build argument 'ament_cmake_args' from command line to 'None'
+[3.054s] Level 5:colcon.colcon_core.verb:set package 'mpu6050_imu' build argument 'catkin_cmake_args' from command line to 'None'
+[3.054s] Level 5:colcon.colcon_core.verb:set package 'mpu6050_imu' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.055s] DEBUG:colcon.colcon_core.verb:Building package 'mpu6050_imu' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/my_space/autonomous_ROS/build/mpu6050_imu', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/my_space/autonomous_ROS/install/mpu6050_imu', 'merge_install': False, 'path': '/home/ubuntu/my_space/autonomous_ROS/src/mpu6050_imu', 'symlink_install': True, 'test_result_base': None}
+[3.057s] Level 5:colcon.colcon_core.verb:set package 'mybot37' build argument 'cmake_args' from command line to 'None'
+[3.057s] Level 5:colcon.colcon_core.verb:set package 'mybot37' build argument 'cmake_target' from command line to 'None'
+[3.058s] Level 5:colcon.colcon_core.verb:set package 'mybot37' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.058s] Level 5:colcon.colcon_core.verb:set package 'mybot37' build argument 'cmake_clean_cache' from command line to 'False'
+[3.058s] Level 5:colcon.colcon_core.verb:set package 'mybot37' build argument 'cmake_clean_first' from command line to 'False'
+[3.058s] Level 5:colcon.colcon_core.verb:set package 'mybot37' build argument 'cmake_force_configure' from command line to 'False'
+[3.058s] Level 5:colcon.colcon_core.verb:set package 'mybot37' build argument 'ament_cmake_args' from command line to 'None'
+[3.059s] Level 5:colcon.colcon_core.verb:set package 'mybot37' build argument 'catkin_cmake_args' from command line to 'None'
+[3.059s] Level 5:colcon.colcon_core.verb:set package 'mybot37' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.059s] DEBUG:colcon.colcon_core.verb:Building package 'mybot37' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/my_space/autonomous_ROS/build/mybot37', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/my_space/autonomous_ROS/install/mybot37', 'merge_install': False, 'path': '/home/ubuntu/my_space/autonomous_ROS/src/mybot37', 'symlink_install': True, 'test_result_base': None}
+[3.060s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.064s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.066s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/my_space/autonomous_ROS/src/dual_motor' with build type 'ament_python'
+[3.067s] Level 1:colcon.colcon_core.shell:create_environment_hook('dual_motor', 'ament_prefix_path')
+[3.096s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_space/autonomous_ROS/install/dual_motor/share/dual_motor/hook/ament_prefix_path.ps1'
+[3.103s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/my_space/autonomous_ROS/install/dual_motor/share/dual_motor/hook/ament_prefix_path.dsv'
+[3.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_space/autonomous_ROS/install/dual_motor/share/dual_motor/hook/ament_prefix_path.sh'
+[3.115s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.116s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.140s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/my_space/autonomous_ROS/src/enc_motor_control' with build type 'ament_python'
+[3.141s] Level 1:colcon.colcon_core.shell:create_environment_hook('enc_motor_control', 'ament_prefix_path')
+[3.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/share/enc_motor_control/hook/ament_prefix_path.ps1'
+[3.148s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/share/enc_motor_control/hook/ament_prefix_path.dsv'
+[3.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/share/enc_motor_control/hook/ament_prefix_path.sh'
+[3.158s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.159s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.183s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/my_space/autonomous_ROS/src/motor_control' with build type 'ament_python'
+[3.184s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_control', 'ament_prefix_path')
+[3.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_space/autonomous_ROS/install/motor_control/share/motor_control/hook/ament_prefix_path.ps1'
+[3.189s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/my_space/autonomous_ROS/install/motor_control/share/motor_control/hook/ament_prefix_path.dsv'
+[3.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_space/autonomous_ROS/install/motor_control/share/motor_control/hook/ament_prefix_path.sh'
+[3.200s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.201s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.222s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/my_space/autonomous_ROS/src/motor_encoder' with build type 'ament_python'
+[3.223s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_encoder', 'ament_prefix_path')
+[3.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/share/motor_encoder/hook/ament_prefix_path.ps1'
+[3.228s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/share/motor_encoder/hook/ament_prefix_path.dsv'
+[3.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/share/motor_encoder/hook/ament_prefix_path.sh'
+[3.237s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.238s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.617s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/my_space/autonomous_ROS/src/dual_motor'
+[4.618s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.619s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.023s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/my_space/autonomous_ROS/src/enc_motor_control'
+[6.024s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.025s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.377s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/my_space/autonomous_ROS/src/motor_control'
+[7.379s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.379s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.772s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/my_space/autonomous_ROS/src/motor_encoder'
+[8.773s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.773s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.344s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/share/ament_index/resource_index/packages/motor_encoder
+[12.345s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/share/motor_encoder/package.xml
+[12.362s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/lib/motor_encoder/encoder_node
+[12.403s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/my_space/autonomous_ROS/build/motor_encoder': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/motor_encoder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/my_space/autonomous_ROS/build/motor_encoder/build --no-deps symlink_data --force
+[12.525s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/my_space/autonomous_ROS/build/motor_control': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/my_space/autonomous_ROS/build/motor_control/build --no-deps symlink_data --force
+[12.544s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/share/ament_index/resource_index/packages/enc_motor_control
+[12.545s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/share/enc_motor_control/package.xml
+[12.555s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/lib/enc_motor_control/enc_motor_controller
+[12.588s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control/build --no-deps symlink_data --force
+[12.658s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/my_space/autonomous_ROS/install/dual_motor/share/ament_index/resource_index/packages/dual_motor
+[12.658s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/my_space/autonomous_ROS/install/dual_motor/share/dual_motor/package.xml
+[12.660s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/ubuntu/my_space/autonomous_ROS/install/dual_motor/lib/dual_motor/dual_motor_controller
+[12.690s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/my_space/autonomous_ROS/build/dual_motor': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/dual_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/dual_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/my_space/autonomous_ROS/build/dual_motor/build --no-deps symlink_data --force
+[16.008s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_encoder', 'pythonpath_develop')
+[16.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_space/autonomous_ROS/build/motor_encoder/share/motor_encoder/hook/pythonpath_develop.ps1'
+[16.013s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/my_space/autonomous_ROS/build/motor_encoder' returned '0': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/motor_encoder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/my_space/autonomous_ROS/build/motor_encoder/build --no-deps symlink_data --force
+[16.020s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/my_space/autonomous_ROS/build/motor_encoder/share/motor_encoder/hook/pythonpath_develop.dsv'
+[16.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_space/autonomous_ROS/build/motor_encoder/share/motor_encoder/hook/pythonpath_develop.sh'
+[16.095s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder' for CMake module files
+[16.101s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder' for CMake config files
+[16.106s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/lib'
+[16.107s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/bin'
+[16.107s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/lib/pkgconfig/motor_encoder.pc'
+[16.111s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/lib/python3.10/site-packages'
+[16.112s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_encoder', 'pythonpath')
+[16.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/share/motor_encoder/hook/pythonpath.ps1'
+[16.116s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/share/motor_encoder/hook/pythonpath.dsv'
+[16.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/share/motor_encoder/hook/pythonpath.sh'
+[16.125s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/bin'
+[16.125s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor_encoder)
+[16.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/share/motor_encoder/package.ps1'
+[16.136s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/share/motor_encoder/package.dsv'
+[16.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/share/motor_encoder/package.sh'
+[16.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/share/motor_encoder/package.bash'
+[16.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/share/motor_encoder/package.zsh'
+[16.166s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder/share/colcon-core/packages/motor_encoder)
+[16.171s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/my_space/autonomous_ROS/src/mpu6050_imu' with build type 'ament_python'
+[16.172s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpu6050_imu', 'ament_prefix_path')
+[16.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_space/autonomous_ROS/install/mpu6050_imu/share/mpu6050_imu/hook/ament_prefix_path.ps1'
+[16.179s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/my_space/autonomous_ROS/install/mpu6050_imu/share/mpu6050_imu/hook/ament_prefix_path.dsv'
+[16.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_space/autonomous_ROS/install/mpu6050_imu/share/mpu6050_imu/hook/ament_prefix_path.sh'
+[16.200s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.200s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.213s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/my_space/autonomous_ROS/src/mpu6050_imu'
+[18.214s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.215s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.244s] Level 1:colcon.colcon_core.shell:create_environment_hook('dual_motor', 'pythonpath_develop')
+[18.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_space/autonomous_ROS/build/dual_motor/share/dual_motor/hook/pythonpath_develop.ps1'
+[18.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/my_space/autonomous_ROS/build/dual_motor' returned '0': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/dual_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/dual_motor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/my_space/autonomous_ROS/build/dual_motor/build --no-deps symlink_data --force
+[18.252s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/my_space/autonomous_ROS/build/dual_motor/share/dual_motor/hook/pythonpath_develop.dsv'
+[18.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_space/autonomous_ROS/build/dual_motor/share/dual_motor/hook/pythonpath_develop.sh'
+[18.259s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_space/autonomous_ROS/install/dual_motor' for CMake module files
+[18.263s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_space/autonomous_ROS/install/dual_motor' for CMake config files
+[18.267s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_space/autonomous_ROS/install/dual_motor/lib'
+[18.268s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_space/autonomous_ROS/install/dual_motor/bin'
+[18.268s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_space/autonomous_ROS/install/dual_motor/lib/pkgconfig/dual_motor.pc'
+[18.270s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_space/autonomous_ROS/install/dual_motor/lib/python3.10/site-packages'
+[18.271s] Level 1:colcon.colcon_core.shell:create_environment_hook('dual_motor', 'pythonpath')
+[18.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_space/autonomous_ROS/install/dual_motor/share/dual_motor/hook/pythonpath.ps1'
+[18.276s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/my_space/autonomous_ROS/install/dual_motor/share/dual_motor/hook/pythonpath.dsv'
+[18.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_space/autonomous_ROS/install/dual_motor/share/dual_motor/hook/pythonpath.sh'
+[18.283s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_space/autonomous_ROS/install/dual_motor/bin'
+[18.284s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dual_motor)
+[18.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_space/autonomous_ROS/install/dual_motor/share/dual_motor/package.ps1'
+[18.291s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/my_space/autonomous_ROS/install/dual_motor/share/dual_motor/package.dsv'
+[18.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_space/autonomous_ROS/install/dual_motor/share/dual_motor/package.sh'
+[18.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_space/autonomous_ROS/install/dual_motor/share/dual_motor/package.bash'
+[18.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_space/autonomous_ROS/install/dual_motor/share/dual_motor/package.zsh'
+[18.307s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/my_space/autonomous_ROS/install/dual_motor/share/colcon-core/packages/dual_motor)
+[18.310s] Level 1:colcon.colcon_core.shell:create_environment_hook('enc_motor_control', 'pythonpath_develop')
+[18.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control/share/enc_motor_control/hook/pythonpath_develop.ps1'
+[18.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control' returned '0': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control/build --no-deps symlink_data --force
+[18.322s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control/share/enc_motor_control/hook/pythonpath_develop.dsv'
+[18.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control/share/enc_motor_control/hook/pythonpath_develop.sh'
+[18.330s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control' for CMake module files
+[18.333s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control' for CMake config files
+[18.338s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/lib'
+[18.339s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/bin'
+[18.340s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/lib/pkgconfig/enc_motor_control.pc'
+[18.341s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/lib/python3.10/site-packages'
+[18.342s] Level 1:colcon.colcon_core.shell:create_environment_hook('enc_motor_control', 'pythonpath')
+[18.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/share/enc_motor_control/hook/pythonpath.ps1'
+[18.346s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/share/enc_motor_control/hook/pythonpath.dsv'
+[18.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/share/enc_motor_control/hook/pythonpath.sh'
+[18.353s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/bin'
+[18.353s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(enc_motor_control)
+[18.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/share/enc_motor_control/package.ps1'
+[18.359s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/share/enc_motor_control/package.dsv'
+[18.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/share/enc_motor_control/package.sh'
+[18.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/share/enc_motor_control/package.bash'
+[18.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/share/enc_motor_control/package.zsh'
+[18.372s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control/share/colcon-core/packages/enc_motor_control)
+[18.374s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_control', 'pythonpath_develop')
+[18.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/my_space/autonomous_ROS/build/motor_control' returned '0': PYTHONPATH=/home/ubuntu/my_space/autonomous_ROS/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/my_space/autonomous_ROS/install/motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/my_space/autonomous_ROS/build/motor_control/build --no-deps symlink_data --force
+[18.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_space/autonomous_ROS/build/motor_control/share/motor_control/hook/pythonpath_develop.ps1'
+[18.385s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/my_space/autonomous_ROS/build/motor_control/share/motor_control/hook/pythonpath_develop.dsv'
+[18.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_space/autonomous_ROS/build/motor_control/share/motor_control/hook/pythonpath_develop.sh'
+[18.392s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_space/autonomous_ROS/install/motor_control' for CMake module files
+[18.395s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_space/autonomous_ROS/install/motor_control' for CMake config files
+[18.399s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_space/autonomous_ROS/install/motor_control/lib'
+[18.400s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_space/autonomous_ROS/install/motor_control/bin'
+[18.401s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_space/autonomous_ROS/install/motor_control/lib/pkgconfig/motor_control.pc'
+[18.402s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_space/autonomous_ROS/install/motor_control/lib/python3.10/site-packages'
+[18.403s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_control', 'pythonpath')
+[18.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_space/autonomous_ROS/install/motor_control/share/motor_control/hook/pythonpath.ps1'
+[18.408s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/my_space/autonomous_ROS/install/motor_control/share/motor_control/hook/pythonpath.dsv'
+[18.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/my_space/autonomous_ROS/install/motor_control/share/motor_control/hook/pythonpath.sh'
+[18.415s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_space/autonomous_ROS/install/motor_control/bin'
+[18.416s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor_control)
+[18.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_space/autonomous_ROS/install/motor_control/share/motor_control/package.ps1'
+[18.426s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/my_space/autonomous_ROS/install/motor_control/share/motor_control/package.dsv'
+[18.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_space/autonomous_ROS/install/motor_control/share/motor_control/package.sh'
+[18.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_space/autonomous_ROS/install/motor_control/share/motor_control/package.bash'
+[18.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_space/autonomous_ROS/install/motor_control/share/motor_control/package.zsh'
+[18.442s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/my_space/autonomous_ROS/install/motor_control/share/colcon-core/packages/motor_control)
+[18.449s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/my_space/autonomous_ROS/src/mybot37' with build type 'ament_cmake'
+[18.450s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/my_space/autonomous_ROS/src/mybot37'
+[18.452s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.453s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.531s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/my_space/autonomous_ROS/build/mybot37': CMAKE_PREFIX_PATH=/home/ubuntu/my_space/autonomous_ROS/install/mpu6050_imu:/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder:/home/ubuntu/my_space/autonomous_ROS/install/motor_control:/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control:/home/ubuntu/my_space/autonomous_ROS/install/dual_motor:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/my_space/autonomous_ROS/build/mybot37 -- -j4 -l4
+[18.940s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/my_space/autonomous_ROS/build/mybot37' returned '2': CMAKE_PREFIX_PATH=/home/ubuntu/my_space/autonomous_ROS/install/mpu6050_imu:/home/ubuntu/my_space/autonomous_ROS/install/motor_encoder:/home/ubuntu/my_space/autonomous_ROS/install/motor_control:/home/ubuntu/my_space/autonomous_ROS/install/enc_motor_control:/home/ubuntu/my_space/autonomous_ROS/install/dual_motor:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/my_space/autonomous_ROS/build/mybot37 -- -j4 -l4
+[18.948s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mybot37)
+[18.950s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_space/autonomous_ROS/install/mybot37' for CMake module files
+[18.953s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_space/autonomous_ROS/install/mybot37' for CMake config files
+[18.954s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_space/autonomous_ROS/install/mybot37/bin'
+[18.957s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_space/autonomous_ROS/install/mybot37/lib/pkgconfig/mybot37.pc'
+[18.960s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_space/autonomous_ROS/install/mybot37/lib/python3.10/site-packages'
+[18.962s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/my_space/autonomous_ROS/install/mybot37/bin'
+[18.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_space/autonomous_ROS/install/mybot37/share/mybot37/package.ps1'
+[18.970s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/my_space/autonomous_ROS/install/mybot37/share/mybot37/package.dsv'
+[18.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_space/autonomous_ROS/install/mybot37/share/mybot37/package.sh'
+[18.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_space/autonomous_ROS/install/mybot37/share/mybot37/package.bash'
+[18.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/my_space/autonomous_ROS/install/mybot37/share/mybot37/package.zsh'
+[18.983s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/my_space/autonomous_ROS/install/mybot37/share/colcon-core/packages/mybot37)
+[20.483s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[20.484s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[20.484s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[20.484s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[20.527s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[20.527s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[20.528s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[20.532s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[20.532s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[20.534s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/my_space/autonomous_ROS/install/local_setup.ps1'
+[20.543s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/my_space/autonomous_ROS/install/_local_setup_util_ps1.py'
+[20.558s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/my_space/autonomous_ROS/install/setup.ps1'
+[20.570s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/my_space/autonomous_ROS/install/local_setup.sh'
+[20.582s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/my_space/autonomous_ROS/install/_local_setup_util_sh.py'
+[20.587s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/my_space/autonomous_ROS/install/setup.sh'
+[20.603s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/my_space/autonomous_ROS/install/local_setup.bash'
+[20.610s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/my_space/autonomous_ROS/install/setup.bash'
+[20.624s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/my_space/autonomous_ROS/install/local_setup.zsh'
+[20.631s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/my_space/autonomous_ROS/install/setup.zsh'

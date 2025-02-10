@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/jakhon37/myspace/robotics/autonomous_ROS/install/mybot37/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/ubuntu/my_space/autonomous_ROS/install/mybot37/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/jakhon37/myspace/robotics/autonomous_ROS/install/mybot37/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/ubuntu/my_space/autonomous_ROS/install/mybot37/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/jakhon37/myspace/robotics/autonomous_ROS/install/mybot37/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/ubuntu/my_space/autonomous_ROS/install/mybot37/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/jakhon37/myspace/robotics/autonomous_ROS/install/mybot37/${destination}")
+      set(destination "/home/ubuntu/my_space/autonomous_ROS/install/mybot37/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,46 +311,46 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install(DIRECTORY "config" "description" "launch" "worlds" "DESTINATION" "share/mybot37")
-ament_cmake_symlink_install_directory("/home/jakhon37/myspace/robotics/autonomous_ROS/src/mybot37" DIRECTORY "config" "description" "launch" "worlds" "DESTINATION" "share/mybot37")
+ament_cmake_symlink_install_directory("/home/ubuntu/my_space/autonomous_ROS/src/arch/mybot37" DIRECTORY "config" "description" "launch" "worlds" "DESTINATION" "share/mybot37")
 
-# install(FILES "/home/jakhon37/myspace/robotics/autonomous_ROS/build/mybot37/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/mybot37" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/jakhon37/myspace/robotics/autonomous_ROS/src/mybot37" FILES "/home/jakhon37/myspace/robotics/autonomous_ROS/build/mybot37/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/mybot37" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/ubuntu/my_space/autonomous_ROS/build/mybot37/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/mybot37" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/ubuntu/my_space/autonomous_ROS/src/arch/mybot37" FILES "/home/ubuntu/my_space/autonomous_ROS/build/mybot37/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/mybot37" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/jakhon37/myspace/robotics/autonomous_ROS/build/mybot37/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/mybot37" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/jakhon37/myspace/robotics/autonomous_ROS/src/mybot37" FILES "/home/jakhon37/myspace/robotics/autonomous_ROS/build/mybot37/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/mybot37" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/ubuntu/my_space/autonomous_ROS/build/mybot37/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/mybot37" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/ubuntu/my_space/autonomous_ROS/src/arch/mybot37" FILES "/home/ubuntu/my_space/autonomous_ROS/build/mybot37/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/mybot37" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
-# install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/mybot37/environment")
-ament_cmake_symlink_install_files("/home/jakhon37/myspace/robotics/autonomous_ROS/src/mybot37" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/mybot37/environment")
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/mybot37/environment")
+ament_cmake_symlink_install_files("/home/ubuntu/my_space/autonomous_ROS/src/arch/mybot37" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/mybot37/environment")
 
-# install(FILES "/home/jakhon37/myspace/robotics/autonomous_ROS/build/mybot37/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/mybot37/environment")
-ament_cmake_symlink_install_files("/home/jakhon37/myspace/robotics/autonomous_ROS/src/mybot37" FILES "/home/jakhon37/myspace/robotics/autonomous_ROS/build/mybot37/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/mybot37/environment")
+# install(FILES "/home/ubuntu/my_space/autonomous_ROS/build/mybot37/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/mybot37/environment")
+ament_cmake_symlink_install_files("/home/ubuntu/my_space/autonomous_ROS/src/arch/mybot37" FILES "/home/ubuntu/my_space/autonomous_ROS/build/mybot37/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/mybot37/environment")
 
-# install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/mybot37/environment")
-ament_cmake_symlink_install_files("/home/jakhon37/myspace/robotics/autonomous_ROS/src/mybot37" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/mybot37/environment")
+# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/mybot37/environment")
+ament_cmake_symlink_install_files("/home/ubuntu/my_space/autonomous_ROS/src/arch/mybot37" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/mybot37/environment")
 
-# install(FILES "/home/jakhon37/myspace/robotics/autonomous_ROS/build/mybot37/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/mybot37/environment")
-ament_cmake_symlink_install_files("/home/jakhon37/myspace/robotics/autonomous_ROS/src/mybot37" FILES "/home/jakhon37/myspace/robotics/autonomous_ROS/build/mybot37/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/mybot37/environment")
+# install(FILES "/home/ubuntu/my_space/autonomous_ROS/build/mybot37/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/mybot37/environment")
+ament_cmake_symlink_install_files("/home/ubuntu/my_space/autonomous_ROS/src/arch/mybot37" FILES "/home/ubuntu/my_space/autonomous_ROS/build/mybot37/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/mybot37/environment")
 
-# install(FILES "/home/jakhon37/myspace/robotics/autonomous_ROS/build/mybot37/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/mybot37")
-ament_cmake_symlink_install_files("/home/jakhon37/myspace/robotics/autonomous_ROS/src/mybot37" FILES "/home/jakhon37/myspace/robotics/autonomous_ROS/build/mybot37/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/mybot37")
+# install(FILES "/home/ubuntu/my_space/autonomous_ROS/build/mybot37/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/mybot37")
+ament_cmake_symlink_install_files("/home/ubuntu/my_space/autonomous_ROS/src/arch/mybot37" FILES "/home/ubuntu/my_space/autonomous_ROS/build/mybot37/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/mybot37")
 
-# install(FILES "/home/jakhon37/myspace/robotics/autonomous_ROS/build/mybot37/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/mybot37")
-ament_cmake_symlink_install_files("/home/jakhon37/myspace/robotics/autonomous_ROS/src/mybot37" FILES "/home/jakhon37/myspace/robotics/autonomous_ROS/build/mybot37/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/mybot37")
+# install(FILES "/home/ubuntu/my_space/autonomous_ROS/build/mybot37/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/mybot37")
+ament_cmake_symlink_install_files("/home/ubuntu/my_space/autonomous_ROS/src/arch/mybot37" FILES "/home/ubuntu/my_space/autonomous_ROS/build/mybot37/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/mybot37")
 
-# install(FILES "/home/jakhon37/myspace/robotics/autonomous_ROS/build/mybot37/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/mybot37")
-ament_cmake_symlink_install_files("/home/jakhon37/myspace/robotics/autonomous_ROS/src/mybot37" FILES "/home/jakhon37/myspace/robotics/autonomous_ROS/build/mybot37/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/mybot37")
+# install(FILES "/home/ubuntu/my_space/autonomous_ROS/build/mybot37/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/mybot37")
+ament_cmake_symlink_install_files("/home/ubuntu/my_space/autonomous_ROS/src/arch/mybot37" FILES "/home/ubuntu/my_space/autonomous_ROS/build/mybot37/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/mybot37")
 
-# install(FILES "/home/jakhon37/myspace/robotics/autonomous_ROS/build/mybot37/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/mybot37")
-ament_cmake_symlink_install_files("/home/jakhon37/myspace/robotics/autonomous_ROS/src/mybot37" FILES "/home/jakhon37/myspace/robotics/autonomous_ROS/build/mybot37/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/mybot37")
+# install(FILES "/home/ubuntu/my_space/autonomous_ROS/build/mybot37/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/mybot37")
+ament_cmake_symlink_install_files("/home/ubuntu/my_space/autonomous_ROS/src/arch/mybot37" FILES "/home/ubuntu/my_space/autonomous_ROS/build/mybot37/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/mybot37")
 
-# install(FILES "/home/jakhon37/myspace/robotics/autonomous_ROS/build/mybot37/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/mybot37")
-ament_cmake_symlink_install_files("/home/jakhon37/myspace/robotics/autonomous_ROS/src/mybot37" FILES "/home/jakhon37/myspace/robotics/autonomous_ROS/build/mybot37/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/mybot37")
+# install(FILES "/home/ubuntu/my_space/autonomous_ROS/build/mybot37/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/mybot37")
+ament_cmake_symlink_install_files("/home/ubuntu/my_space/autonomous_ROS/src/arch/mybot37" FILES "/home/ubuntu/my_space/autonomous_ROS/build/mybot37/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/mybot37")
 
-# install(FILES "/home/jakhon37/myspace/robotics/autonomous_ROS/build/mybot37/ament_cmake_index/share/ament_index/resource_index/packages/mybot37" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/jakhon37/myspace/robotics/autonomous_ROS/src/mybot37" FILES "/home/jakhon37/myspace/robotics/autonomous_ROS/build/mybot37/ament_cmake_index/share/ament_index/resource_index/packages/mybot37" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/ubuntu/my_space/autonomous_ROS/build/mybot37/ament_cmake_index/share/ament_index/resource_index/packages/mybot37" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/ubuntu/my_space/autonomous_ROS/src/arch/mybot37" FILES "/home/ubuntu/my_space/autonomous_ROS/build/mybot37/ament_cmake_index/share/ament_index/resource_index/packages/mybot37" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/jakhon37/myspace/robotics/autonomous_ROS/build/mybot37/ament_cmake_core/mybot37Config.cmake" "/home/jakhon37/myspace/robotics/autonomous_ROS/build/mybot37/ament_cmake_core/mybot37Config-version.cmake" "DESTINATION" "share/mybot37/cmake")
-ament_cmake_symlink_install_files("/home/jakhon37/myspace/robotics/autonomous_ROS/src/mybot37" FILES "/home/jakhon37/myspace/robotics/autonomous_ROS/build/mybot37/ament_cmake_core/mybot37Config.cmake" "/home/jakhon37/myspace/robotics/autonomous_ROS/build/mybot37/ament_cmake_core/mybot37Config-version.cmake" "DESTINATION" "share/mybot37/cmake")
+# install(FILES "/home/ubuntu/my_space/autonomous_ROS/build/mybot37/ament_cmake_core/mybot37Config.cmake" "/home/ubuntu/my_space/autonomous_ROS/build/mybot37/ament_cmake_core/mybot37Config-version.cmake" "DESTINATION" "share/mybot37/cmake")
+ament_cmake_symlink_install_files("/home/ubuntu/my_space/autonomous_ROS/src/arch/mybot37" FILES "/home/ubuntu/my_space/autonomous_ROS/build/mybot37/ament_cmake_core/mybot37Config.cmake" "/home/ubuntu/my_space/autonomous_ROS/build/mybot37/ament_cmake_core/mybot37Config-version.cmake" "DESTINATION" "share/mybot37/cmake")
 
-# install(FILES "/home/jakhon37/myspace/robotics/autonomous_ROS/src/mybot37/package.xml" "DESTINATION" "share/mybot37")
-ament_cmake_symlink_install_files("/home/jakhon37/myspace/robotics/autonomous_ROS/src/mybot37" FILES "/home/jakhon37/myspace/robotics/autonomous_ROS/src/mybot37/package.xml" "DESTINATION" "share/mybot37")
+# install(FILES "/home/ubuntu/my_space/autonomous_ROS/src/arch/mybot37/package.xml" "DESTINATION" "share/mybot37")
+ament_cmake_symlink_install_files("/home/ubuntu/my_space/autonomous_ROS/src/arch/mybot37" FILES "/home/ubuntu/my_space/autonomous_ROS/src/arch/mybot37/package.xml" "DESTINATION" "share/mybot37")
