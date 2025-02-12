@@ -313,8 +313,10 @@ To add additional nodes:
 
 
 
-[![Watch the Video](https://youtu.be/JTg8ff2hSGM?si=UqfauM6vN_xyPFOV/0.jpg)](https://youtu.be/JTg8ff2hSGM?si=UqfauM6vN_xyPFOV)
+<!-- [![Watch the Video](<img src="/home/jakhon37/myspace/robotics/autonomous_ROS/assets/thubnl.png" width="50%">)](https://youtu.be/JTg8ff2hSGM?si=UqfauM6vN_xyPFOV) -->
+<!-- [![Watch the Video](https://img.youtu.be/JTg8ff2hSGM?si=UqfauM6vN_xyPFOV/0.jpg)](https://youtu.be/JTg8ff2hSGM?si=UqfauM6vN_xyPFOV) -->
 
+[<img src="assets/thubnl.png" width="50%">](https://youtu.be/JTg8ff2hSGM?si=UqfauM6vN_xyPFOV)
 ---
 
 ## Wiring and Circuit Connection Guide
