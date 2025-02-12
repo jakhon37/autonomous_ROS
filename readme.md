@@ -3,7 +3,9 @@
 # Autonomous ROS Project
 
 This project integrates multiple sensors and actuators on a mobile robot platform to achieve autonomous navigation. The system runs on a Raspberry Pi 4B (2GB) and combines motor control, encoder feedback, LIDAR scanning, SLAM, navigation, camera vision, and line tracking.
-
+---
+[<img src="assets/thubnl.png" width="50%">](https://youtu.be/JTg8ff2hSGM?si=UqfauM6vN_xyPFOV)
+---
 > **Status Overview:**  
 > - **Completed:** Motor control node, encoder node, and web GUI for remote control  
 > - **In Progress:** RP‑Lidar scan node, SLAM integration, navigation stack, camera & object detection, and line tracking
@@ -316,7 +318,6 @@ To add additional nodes:
 <!-- [![Watch the Video](<img src="/home/jakhon37/myspace/robotics/autonomous_ROS/assets/thubnl.png" width="50%">)](https://youtu.be/JTg8ff2hSGM?si=UqfauM6vN_xyPFOV) -->
 <!-- [![Watch the Video](https://img.youtu.be/JTg8ff2hSGM?si=UqfauM6vN_xyPFOV/0.jpg)](https://youtu.be/JTg8ff2hSGM?si=UqfauM6vN_xyPFOV) -->
 
-[<img src="assets/thubnl.png" width="50%">](https://youtu.be/JTg8ff2hSGM?si=UqfauM6vN_xyPFOV)
 ---
 
 ## Wiring and Circuit Connection Guide
