@@ -1,8 +1,7 @@
-
 # Use an official ROS 2 Humble base image
 FROM ros:humble
 
-# Install necessary packages and tools (for building your workspace)
+# Install necessary packages and tools
 RUN apt-get update && apt-get install -y \
     python3-colcon-common-extensions \
     python3-rosdep \
@@ -10,23 +9,23 @@ RUN apt-get update && apt-get install -y \
     git \
     && rm -rf /var/lib/apt/lists/*
 
-# Set up rosdep
-# RUN rosdep init && rosdep update
-# Step 3: Initialize rosdep
+# Use Bash as the default shell for subsequent RUN commands.
+SHELL ["/bin/bash", "-c"]
+
+# Initialize rosdep (remove the default file first to avoid errors)
 RUN rm -f /etc/ros/rosdep/sources.list.d/20-default.list && \
     rosdep init && \
     rosdep update
 
-# Set the working directory for your ROS 2 workspace
+# Set working directory
 WORKDIR /autonomous_ROS
 
-# Copy your project files into the container
+# Copy the project files into the container
 COPY . /autonomous_ROS
 
-# Build the workspace (you can also disable GUI plugins as needed)
+# Build the workspace with the RViz plugin disabled
 RUN . /opt/ros/humble/setup.bash && \
     colcon build --cmake-args -DBUILD_RVIZ_PLUGIN=OFF
 
-# Source the workspace setup file and set the entrypoint
-# This launches your unified launch file on container startup.
+# Set the container's entrypoint to launch your unified launch file
 CMD ["/bin/bash", "-c", ". /opt/ros/humble/setup.bash && . /autonomous_ROS/install/setup.bash && ros2 launch my_robot_slam all_nodes_launch.py"]
