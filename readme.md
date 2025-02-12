@@ -8,6 +8,7 @@ This project integrates multiple sensors and actuators on a mobile robot platfor
 > - **Completed:** Motor control node, encoder node, and web GUI for remote control  
 > - **In Progress:** RP‑Lidar scan node, SLAM integration, navigation stack, camera & object detection, and line tracking
 
+![project image](assets/thub.png)
 ---
 
 ## Table of Contents
@@ -309,6 +310,10 @@ To add additional nodes:
 
 3. **Remote Visualization (Optional):**  
    If you want to visualize SLAM data or the map, run RViz on a separate machine and subscribe to the `/map` and `/scan` topics.
+
+
+
+[![Watch the Video](https://youtu.be/JTg8ff2hSGM?si=UqfauM6vN_xyPFOV/0.jpg)](https://youtu.be/JTg8ff2hSGM?si=UqfauM6vN_xyPFOV)
 
 ---
 
