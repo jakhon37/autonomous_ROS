@@ -11,7 +11,11 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # Set up rosdep
-RUN rosdep init && rosdep update
+# RUN rosdep init && rosdep update
+# Step 3: Initialize rosdep
+RUN rm -f /etc/ros/rosdep/sources.list.d/20-default.list && \
+    rosdep init && \
+    rosdep update
 
 # Set the working directory for your ROS 2 workspace
 WORKDIR /autonomous_ROS
