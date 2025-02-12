@@ -1,3 +1,0 @@
-[console_scripts]
-dual_encoder_node = motor_encoder.dual_encoder_node:main
-

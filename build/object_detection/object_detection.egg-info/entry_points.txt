@@ -1,3 +1,0 @@
-[console_scripts]
-camera_go = object_detection.camera_go:main
-

@@ -1,9 +1,0 @@
-/home/ubuntu/my_space/autonomous_ROS/build/mybot37/CMakeFiles/uninstall.dir
-/home/ubuntu/my_space/autonomous_ROS/build/mybot37/CMakeFiles/mybot37_uninstall.dir
-/home/ubuntu/my_space/autonomous_ROS/build/mybot37/CMakeFiles/test.dir
-/home/ubuntu/my_space/autonomous_ROS/build/mybot37/CMakeFiles/edit_cache.dir
-/home/ubuntu/my_space/autonomous_ROS/build/mybot37/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/my_space/autonomous_ROS/build/mybot37/CMakeFiles/list_install_components.dir
-/home/ubuntu/my_space/autonomous_ROS/build/mybot37/CMakeFiles/install.dir
-/home/ubuntu/my_space/autonomous_ROS/build/mybot37/CMakeFiles/install/local.dir
-/home/ubuntu/my_space/autonomous_ROS/build/mybot37/CMakeFiles/install/strip.dir

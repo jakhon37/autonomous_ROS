@@ -23,11 +23,11 @@ def generate_launch_description():
     # )
     # pkg_share = get_package_share_directory('my_robot_slam')
     # config_file = os.path.join(pkg_share, 'config', 'slam_toolbox_config.yaml')
-    config_file = os.path.join(
-        get_package_share_directory('slam_launch'),
-        'config',
-        'slam_toolbox_config.yaml'
-    )
+    # config_file = os.path.join(
+    #     get_package_share_directory('slam_launch'),
+    #     'config',
+    #     'slam_toolbox_config.yaml'
+    # )
     
     return LaunchDescription([
         # # Motor Controller Node
@@ -64,20 +64,20 @@ def generate_launch_description():
         # ),        
         
         # dual Motor Controller Node
-        Node(
-            package='dual_motor',
-            executable='dual_motor_controller',
-            name='dual_motor_controller',
-            output='screen'
-        ),
+        # Node(
+        #     package='dual_motor',
+        #     executable='dual_motor_controller',
+        #     name='dual_motor_controller',
+        #     output='screen'
+        # ),
         
         # Encoder Controller Node
-        Node(
-            package='motor_encoder',
-            executable='dual_encoder_node',
-            name='dual_encoder_node',
-            output='screen'
-        ),
+        # Node(
+        #     package='motor_encoder',
+        #     executable='dual_encoder_node',
+        #     name='dual_encoder_node',
+        #     output='screen'
+        # ),
         # MPU6050 IMU Node
         # Node(
         #     package='mpu6050_imu',
@@ -97,14 +97,11 @@ def generate_launch_description():
                 'angle_compensate': True,
                 'scan_mode': 'Standard',
                 # 'scan_mode': 'DenseBoost',  # Less CPU intensive mode
-                'scan_frequency': 5.0,  # Limit to 5Hz
+                # 'scan_frequency': 5.0,  # Limit to 5Hz
 
             }]
         ),
         
-        # # slam node
-        
-        # Node(
         #     package='slam_toolbox',
         #     executable='sync_slam_toolbox_node',  # Alternatively, use 'async_slam_toolbox_node' if desired
         #     name='slam_toolbox',

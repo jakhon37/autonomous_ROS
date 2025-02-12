@@ -1,0 +1,95 @@
+[0.000000] (-) TimerEvent: {}
+[0.002036] (-) JobUnselected: {'identifier': 'motor_encoder'}
+[0.002898] (-) JobUnselected: {'identifier': 'mpu6050_imu'}
+[0.003575] (-) JobUnselected: {'identifier': 'object_detection'}
+[0.003837] (-) JobUnselected: {'identifier': 'slam_launch'}
+[0.004035] (dual_motor) JobQueued: {'identifier': 'dual_motor', 'dependencies': OrderedDict()}
+[0.004225] (dual_motor) JobStarted: {'identifier': 'dual_motor'}
+[0.099196] (-) TimerEvent: {}
+[0.200092] (-) TimerEvent: {}
+[0.301210] (-) TimerEvent: {}
+[0.402289] (-) TimerEvent: {}
+[0.503296] (-) TimerEvent: {}
+[0.604030] (-) TimerEvent: {}
+[0.705144] (-) TimerEvent: {}
+[0.806184] (-) TimerEvent: {}
+[0.907199] (-) TimerEvent: {}
+[1.007806] (-) TimerEvent: {}
+[1.108810] (-) TimerEvent: {}
+[1.209484] (-) TimerEvent: {}
+[1.310435] (-) TimerEvent: {}
+[1.411065] (-) TimerEvent: {}
+[1.512206] (-) TimerEvent: {}
+[1.613104] (-) TimerEvent: {}
+[1.713823] (-) TimerEvent: {}
+[1.814423] (-) TimerEvent: {}
+[1.915086] (-) TimerEvent: {}
+[2.015733] (-) TimerEvent: {}
+[2.116374] (-) TimerEvent: {}
+[2.216959] (-) TimerEvent: {}
+[2.317659] (-) TimerEvent: {}
+[2.418299] (-) TimerEvent: {}
+[2.518949] (-) TimerEvent: {}
+[2.619599] (-) TimerEvent: {}
+[2.720305] (-) TimerEvent: {}
+[2.821026] (-) TimerEvent: {}
+[2.921932] (-) TimerEvent: {}
+[3.022634] (-) TimerEvent: {}
+[3.123780] (-) TimerEvent: {}
+[3.224564] (-) TimerEvent: {}
+[3.270864] (dual_motor) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/dual_motor', 'build', '--build-base', '/home/jetson/myspace/autonomous_ROS/build/dual_motor/build', 'install', '--record', '/home/jetson/myspace/autonomous_ROS/build/dual_motor/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jetson/myspace/autonomous_ROS/src/dual_motor', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jetson', 'SSH_CLIENT': '192.168.219.102 33828 22', 'LC_TIME': 'nl_NL.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/jetson/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/jetson/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson/.vscode-server', 'TERM_PROGRAM_VERSION': '1.96.4', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-91c34ac7-4d4c-4170-85ba-93e319bbf3cc.sock', 'JETSON_L4T': '32.6.1', 'ROS_PYTHON_VERSION': '3', 'JETSON_MODEL': 'NVIDIA Jetson Nano Developer Kit', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jetson/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'nl_NL.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/jetson/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/jetson/myspace/autonomous_ROS/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jetson', 'JETSON_MODULE': 'NVIDIA Jetson Nano (4 GB ram)', 'JETSON_SERIAL_NUMBER': '1423219035373', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'Porg', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/cuda/bin:/home/jetson/.vscode-server/cli/servers/Stable-cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/server/bin/remote-cli:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'nl_NL.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'nl_NL.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra210', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-0f58de1f41.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/jetson/myspace/autonomous_ROS/install/slam_launch:/home/jetson/myspace/autonomous_ROS/install/object_detection:/home/jetson/myspace/autonomous_ROS/install/my_robot_slam:/home/jetson/myspace/autonomous_ROS/install/mpu6050_imu:/home/jetson/myspace/autonomous_ROS/install/motor_encoder:/home/jetson/myspace/autonomous_ROS/install/motor_control:/home/jetson/myspace/autonomous_ROS/install/enc_motor_control:/home/jetson/myspace/autonomous_ROS/install/dual_motor:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'nl_NL.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JETSON_BOARDIDS': 'p3448', 'LC_MEASUREMENT': 'nl_NL.UTF-8', 'LC_IDENTIFICATION': 'nl_NL.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'JETSON_CUDA_ARCH_BIN': '5.3', 'PWD': '/home/jetson/myspace/autonomous_ROS/build/dual_motor', 'SSH_CONNECTION': '192.168.219.102 33828 192.168.219.101 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/myspace/autonomous_ROS/build/dual_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/myspace/autonomous_ROS/install/dual_motor/lib/python3.8/site-packages:/home/jetson/myspace/autonomous_ROS/install/slam_launch/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/build/object_detection:/home/jetson/myspace/autonomous_ROS/install/object_detection/lib/python3.10/site-packages:/home/jetson/myspace/autonomous_ROS/install/my_robot_slam/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/build/mpu6050_imu:/home/jetson/myspace/autonomous_ROS/install/mpu6050_imu/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/build/motor_encoder:/home/jetson/myspace/autonomous_ROS/install/motor_encoder/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/build/motor_control:/home/jetson/myspace/autonomous_ROS/install/motor_control/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/build/enc_motor_control:/home/jetson/myspace/autonomous_ROS/install/enc_motor_control/lib/python3.10/site-packages:/home/ubuntu/my_space/autonomous_ROS/build/dual_motor:/home/jetson/myspace/autonomous_ROS/install/dual_motor/lib/python3.10/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'nl_NL.UTF-8', 'LC_PAPER': 'nl_NL.UTF-8', 'COLCON': '1', 'JETSON_JETPACK': '4.6', 'CMAKE_PREFIX_PATH': '/home/jetson/myspace/autonomous_ROS/install/mybot37', 'JETSON_P_NUMBER': 'p3448-0000'}, 'shell': False}
+[3.324793] (-) TimerEvent: {}
+[3.425663] (-) TimerEvent: {}
+[3.526669] (-) TimerEvent: {}
+[3.627687] (-) TimerEvent: {}
+[3.728340] (-) TimerEvent: {}
+[3.829676] (-) TimerEvent: {}
+[3.934119] (-) TimerEvent: {}
+[4.035633] (-) TimerEvent: {}
+[4.136293] (-) TimerEvent: {}
+[4.236977] (-) TimerEvent: {}
+[4.338448] (-) TimerEvent: {}
+[4.439139] (-) TimerEvent: {}
+[4.539813] (-) TimerEvent: {}
+[4.640877] (-) TimerEvent: {}
+[4.641779] (dual_motor) StdoutLine: {'line': b'running egg_info\n'}
+[4.643996] (dual_motor) StdoutLine: {'line': b'creating ../../build/dual_motor/dual_motor.egg-info\n'}
+[4.644663] (dual_motor) StdoutLine: {'line': b'writing ../../build/dual_motor/dual_motor.egg-info/PKG-INFO\n'}
+[4.645376] (dual_motor) StdoutLine: {'line': b'writing dependency_links to ../../build/dual_motor/dual_motor.egg-info/dependency_links.txt\n'}
+[4.645899] (dual_motor) StdoutLine: {'line': b'writing entry points to ../../build/dual_motor/dual_motor.egg-info/entry_points.txt\n'}
+[4.646469] (dual_motor) StdoutLine: {'line': b'writing requirements to ../../build/dual_motor/dual_motor.egg-info/requires.txt\n'}
+[4.646872] (dual_motor) StdoutLine: {'line': b'writing top-level names to ../../build/dual_motor/dual_motor.egg-info/top_level.txt\n'}
+[4.658729] (dual_motor) StdoutLine: {'line': b"writing manifest file '../../build/dual_motor/dual_motor.egg-info/SOURCES.txt'\n"}
+[4.665257] (dual_motor) StdoutLine: {'line': b"reading manifest file '../../build/dual_motor/dual_motor.egg-info/SOURCES.txt'\n"}
+[4.668477] (dual_motor) StdoutLine: {'line': b"writing manifest file '../../build/dual_motor/dual_motor.egg-info/SOURCES.txt'\n"}
+[4.669282] (dual_motor) StdoutLine: {'line': b'running build\n'}
+[4.669793] (dual_motor) StdoutLine: {'line': b'running build_py\n'}
+[4.670485] (dual_motor) StdoutLine: {'line': b'creating /home/jetson/myspace/autonomous_ROS/build/dual_motor/build\n'}
+[4.670945] (dual_motor) StdoutLine: {'line': b'creating /home/jetson/myspace/autonomous_ROS/build/dual_motor/build/lib\n'}
+[4.671424] (dual_motor) StdoutLine: {'line': b'creating /home/jetson/myspace/autonomous_ROS/build/dual_motor/build/lib/dual_motor\n'}
+[4.671841] (dual_motor) StdoutLine: {'line': b'copying dual_motor/dual_motor_controller.py -> /home/jetson/myspace/autonomous_ROS/build/dual_motor/build/lib/dual_motor\n'}
+[4.674310] (dual_motor) StdoutLine: {'line': b'copying dual_motor/__init__.py -> /home/jetson/myspace/autonomous_ROS/build/dual_motor/build/lib/dual_motor\n'}
+[4.674745] (dual_motor) StdoutLine: {'line': b'running install\n'}
+[4.675324] (dual_motor) StdoutLine: {'line': b'running install_lib\n'}
+[4.678782] (dual_motor) StdoutLine: {'line': b'creating /home/jetson/myspace/autonomous_ROS/install/dual_motor/lib/python3.8/site-packages/dual_motor\n'}
+[4.679477] (dual_motor) StdoutLine: {'line': b'copying /home/jetson/myspace/autonomous_ROS/build/dual_motor/build/lib/dual_motor/dual_motor_controller.py -> /home/jetson/myspace/autonomous_ROS/install/dual_motor/lib/python3.8/site-packages/dual_motor\n'}
+[4.680002] (dual_motor) StdoutLine: {'line': b'copying /home/jetson/myspace/autonomous_ROS/build/dual_motor/build/lib/dual_motor/__init__.py -> /home/jetson/myspace/autonomous_ROS/install/dual_motor/lib/python3.8/site-packages/dual_motor\n'}
+[4.681721] (dual_motor) StdoutLine: {'line': b'byte-compiling /home/jetson/myspace/autonomous_ROS/install/dual_motor/lib/python3.8/site-packages/dual_motor/dual_motor_controller.py to dual_motor_controller.cpython-38.pyc\n'}
+[4.684523] (dual_motor) StdoutLine: {'line': b'byte-compiling /home/jetson/myspace/autonomous_ROS/install/dual_motor/lib/python3.8/site-packages/dual_motor/__init__.py to __init__.cpython-38.pyc\n'}
+[4.685332] (dual_motor) StdoutLine: {'line': b'running install_data\n'}
+[4.686060] (dual_motor) StdoutLine: {'line': b'creating /home/jetson/myspace/autonomous_ROS/install/dual_motor/share/ament_index\n'}
+[4.686539] (dual_motor) StdoutLine: {'line': b'creating /home/jetson/myspace/autonomous_ROS/install/dual_motor/share/ament_index/resource_index\n'}
+[4.687060] (dual_motor) StdoutLine: {'line': b'creating /home/jetson/myspace/autonomous_ROS/install/dual_motor/share/ament_index/resource_index/packages\n'}
+[4.687443] (dual_motor) StdoutLine: {'line': b'copying resource/dual_motor -> /home/jetson/myspace/autonomous_ROS/install/dual_motor/share/ament_index/resource_index/packages\n'}
+[4.687829] (dual_motor) StdoutLine: {'line': b'copying package.xml -> /home/jetson/myspace/autonomous_ROS/install/dual_motor/share/dual_motor\n'}
+[4.688195] (dual_motor) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.695373] (dual_motor) StdoutLine: {'line': b'Copying ../../build/dual_motor/dual_motor.egg-info to /home/jetson/myspace/autonomous_ROS/install/dual_motor/lib/python3.8/site-packages/dual_motor-0.0.0-py3.8.egg-info\n'}
+[4.698832] (dual_motor) StdoutLine: {'line': b'running install_scripts\n'}
+[4.741038] (-) TimerEvent: {}
+[4.779197] (dual_motor) StdoutLine: {'line': b'Installing dual_motor_controller script to /home/jetson/myspace/autonomous_ROS/install/dual_motor/lib/dual_motor\n'}
+[4.781155] (dual_motor) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/myspace/autonomous_ROS/build/dual_motor/install.log'\n"}
+[4.841336] (-) TimerEvent: {}
+[4.881121] (dual_motor) CommandEnded: {'returncode': 0}
+[4.942086] (-) TimerEvent: {}
+[4.944809] (dual_motor) JobEnded: {'identifier': 'dual_motor', 'rc': 0}
+[4.946769] (-) EventReactorShutdown: {}

@@ -1,3 +1,0 @@
-[console_scripts]
-mpu6050_node = mpu6050_imu.mpu6050_node:main
-

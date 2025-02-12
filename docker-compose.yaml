@@ -1,0 +1,8 @@
+
+version: "3"
+services:
+  autonomous_ros:
+    image: autonomous_ros_project
+    container_name: autonomous_ros_project
+    network_mode: "host"
+    restart: always

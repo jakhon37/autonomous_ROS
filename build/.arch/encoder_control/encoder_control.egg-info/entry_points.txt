@@ -1,3 +1,0 @@
-[console_scripts]
-encoder_controller = encoder_control.encoder_controller:main
-

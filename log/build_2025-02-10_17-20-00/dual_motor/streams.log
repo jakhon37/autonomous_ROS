@@ -1,0 +1,37 @@
+[3.269s] Invoking command in '/home/jetson/myspace/autonomous_ROS/src/dual_motor': PYTHONPATH=/home/jetson/myspace/autonomous_ROS/build/dual_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/myspace/autonomous_ROS/install/dual_motor/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dual_motor build --build-base /home/jetson/myspace/autonomous_ROS/build/dual_motor/build install --record /home/jetson/myspace/autonomous_ROS/build/dual_motor/install.log --single-version-externally-managed install_data
+[4.638s] running egg_info
+[4.640s] creating ../../build/dual_motor/dual_motor.egg-info
+[4.641s] writing ../../build/dual_motor/dual_motor.egg-info/PKG-INFO
+[4.641s] writing dependency_links to ../../build/dual_motor/dual_motor.egg-info/dependency_links.txt
+[4.642s] writing entry points to ../../build/dual_motor/dual_motor.egg-info/entry_points.txt
+[4.642s] writing requirements to ../../build/dual_motor/dual_motor.egg-info/requires.txt
+[4.643s] writing top-level names to ../../build/dual_motor/dual_motor.egg-info/top_level.txt
+[4.655s] writing manifest file '../../build/dual_motor/dual_motor.egg-info/SOURCES.txt'
+[4.661s] reading manifest file '../../build/dual_motor/dual_motor.egg-info/SOURCES.txt'
+[4.665s] writing manifest file '../../build/dual_motor/dual_motor.egg-info/SOURCES.txt'
+[4.665s] running build
+[4.666s] running build_py
+[4.666s] creating /home/jetson/myspace/autonomous_ROS/build/dual_motor/build
+[4.667s] creating /home/jetson/myspace/autonomous_ROS/build/dual_motor/build/lib
+[4.667s] creating /home/jetson/myspace/autonomous_ROS/build/dual_motor/build/lib/dual_motor
+[4.670s] copying dual_motor/dual_motor_controller.py -> /home/jetson/myspace/autonomous_ROS/build/dual_motor/build/lib/dual_motor
+[4.670s] copying dual_motor/__init__.py -> /home/jetson/myspace/autonomous_ROS/build/dual_motor/build/lib/dual_motor
+[4.671s] running install
+[4.671s] running install_lib
+[4.675s] creating /home/jetson/myspace/autonomous_ROS/install/dual_motor/lib/python3.8/site-packages/dual_motor
+[4.676s] copying /home/jetson/myspace/autonomous_ROS/build/dual_motor/build/lib/dual_motor/dual_motor_controller.py -> /home/jetson/myspace/autonomous_ROS/install/dual_motor/lib/python3.8/site-packages/dual_motor
+[4.676s] copying /home/jetson/myspace/autonomous_ROS/build/dual_motor/build/lib/dual_motor/__init__.py -> /home/jetson/myspace/autonomous_ROS/install/dual_motor/lib/python3.8/site-packages/dual_motor
+[4.678s] byte-compiling /home/jetson/myspace/autonomous_ROS/install/dual_motor/lib/python3.8/site-packages/dual_motor/dual_motor_controller.py to dual_motor_controller.cpython-38.pyc
+[4.681s] byte-compiling /home/jetson/myspace/autonomous_ROS/install/dual_motor/lib/python3.8/site-packages/dual_motor/__init__.py to __init__.cpython-38.pyc
+[4.682s] running install_data
+[4.682s] creating /home/jetson/myspace/autonomous_ROS/install/dual_motor/share/ament_index
+[4.683s] creating /home/jetson/myspace/autonomous_ROS/install/dual_motor/share/ament_index/resource_index
+[4.683s] creating /home/jetson/myspace/autonomous_ROS/install/dual_motor/share/ament_index/resource_index/packages
+[4.683s] copying resource/dual_motor -> /home/jetson/myspace/autonomous_ROS/install/dual_motor/share/ament_index/resource_index/packages
+[4.684s] copying package.xml -> /home/jetson/myspace/autonomous_ROS/install/dual_motor/share/dual_motor
+[4.684s] running install_egg_info
+[4.691s] Copying ../../build/dual_motor/dual_motor.egg-info to /home/jetson/myspace/autonomous_ROS/install/dual_motor/lib/python3.8/site-packages/dual_motor-0.0.0-py3.8.egg-info
+[4.695s] running install_scripts
+[4.775s] Installing dual_motor_controller script to /home/jetson/myspace/autonomous_ROS/install/dual_motor/lib/dual_motor
+[4.777s] writing list of installed files to '/home/jetson/myspace/autonomous_ROS/build/dual_motor/install.log'
+[4.878s] Invoked command in '/home/jetson/myspace/autonomous_ROS/src/dual_motor' returned '0': PYTHONPATH=/home/jetson/myspace/autonomous_ROS/build/dual_motor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/myspace/autonomous_ROS/install/dual_motor/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dual_motor build --build-base /home/jetson/myspace/autonomous_ROS/build/dual_motor/build install --record /home/jetson/myspace/autonomous_ROS/build/dual_motor/install.log --single-version-externally-managed install_data
