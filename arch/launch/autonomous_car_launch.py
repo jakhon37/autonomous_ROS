@@ -64,20 +64,20 @@ def generate_launch_description():
         # ),        
         
         # dual Motor Controller Node
-        # Node(
-        #     package='dual_motor',
-        #     executable='dual_motor_controller',
-        #     name='dual_motor_controller',
-        #     output='screen'
-        # ),
+        Node(
+            package='dual_motor',
+            executable='dual_motor_controller',
+            name='dual_motor_controller',
+            output='screen'
+        ),
         
         # Encoder Controller Node
-        # Node(
-        #     package='motor_encoder',
-        #     executable='dual_encoder_node',
-        #     name='dual_encoder_node',
-        #     output='screen'
-        # ),
+        Node(
+            package='motor_encoder',
+            executable='dual_encoder_node',
+            name='dual_encoder_node',
+            output='screen'
+        ),
         # MPU6050 IMU Node
         # Node(
         #     package='mpu6050_imu',
@@ -86,21 +86,21 @@ def generate_launch_description():
         #     output='screen'
         # ),
         # Include the sllidar_ros2 A1 launch file
-        Node(
-            package='rplidar_ros',
-            executable='rplidar_composition',
-            output='screen',
-            parameters=[{
-                'serial_port': '/dev/ttyUSB0', #'/dev/serial/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1.3:1.0-port0',
-                'serial_baudrate': 115200,
-                'frame_id': 'laser_frame',
-                'angle_compensate': True,
-                'scan_mode': 'Standard',
-                # 'scan_mode': 'DenseBoost',  # Less CPU intensive mode
-                # 'scan_frequency': 5.0,  # Limit to 5Hz
+        # Node(
+        #     package='rplidar_ros',
+        #     executable='rplidar_composition',
+        #     output='screen',
+        #     parameters=[{
+        #         'serial_port': '/dev/ttyUSB0', #'/dev/serial/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1.3:1.0-port0',
+        #         'serial_baudrate': 115200,
+        #         'frame_id': 'laser_frame',
+        #         'angle_compensate': True,
+        #         'scan_mode': 'Standard',
+        #         # 'scan_mode': 'DenseBoost',  # Less CPU intensive mode
+        #         # 'scan_frequency': 5.0,  # Limit to 5Hz
 
-            }]
-        ),
+        #     }]
+        # ),
         
         #     package='slam_toolbox',
         #     executable='sync_slam_toolbox_node',  # Alternatively, use 'async_slam_toolbox_node' if desired
