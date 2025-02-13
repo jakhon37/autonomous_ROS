@@ -1,4 +1,5 @@
-
+## Due to raspberry pi's low 2gb memory we could not run slam&navigation on the device. You can still create mobile robot that can be controlled on your phone throuh web controll gui 
+## So we will continue this project with Jetson nano b1 on - github/...
 # Autonomous ROS Project
 
 This project integrates multiple sensors and actuators on a mobile robot platform to achieve autonomous navigation. The system runs on a Raspberry Pi 4B (2GB) and combines motor control, encoder feedback, LIDAR scanning, SLAM, navigation, camera vision, and line tracking.
